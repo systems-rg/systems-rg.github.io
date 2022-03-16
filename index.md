@@ -5,7 +5,6 @@
 layout: page
 toc: true
 ---
-## About this group
 We meet weekly to discuss papers from A\* system conferences: OSDI, SOSP,
 Eurosys, FAST, ATC, ASPLOS, PLDI, NSDI, SIGCOMM, MobiSys, and MobiCom.
 
