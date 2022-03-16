@@ -2,7 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: page
+toc: true
 ---
 ## About this group
 We meet weekly to discuss papers from A\* system conferences: OSDI, SOSP,
@@ -15,7 +16,8 @@ Eurosys, FAST, ATC, ASPLOS, PLDI, NSDI, SIGCOMM, MobiSys, and MobiCom.
 
 
 *How can I give a talk?* 
-Just send a PR to [this link](https://github.com/systems-rg/systems-rg.github.io).
+* Easiest is to just send a PR to [this link](https://github.com/systems-rg/systems-rg.github.io).
+* Or you can let [Abhilash](mailto:ajindal@cse.iitd.ac.in) know when you'd like to give a talk.
 
 ## Honor code
 If you will be unable to give the talk in your committed slot due to unforeseen
