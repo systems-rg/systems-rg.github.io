@@ -24,7 +24,7 @@ github_username:  systems-rg
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hacker
+theme: minima
 plugins:
   - jekyll-seo-tag
   #- jekyll-toc
