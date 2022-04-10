@@ -34,9 +34,11 @@ for such days.  If you've committed that you'll attend a session in-person,
 	<a href="{{ pub.url }}" target="_blank">[{{ pub.abbrvenue }} {{ pub.year }}] {{ pub.title }}</a>
 	<br/>
 	<div style="justify-content: space-between; display: flex">
-		<span> When: {{ pub.when }}</span>
+		<span> <i>When:</i> {{ pub.when }}</span>
 		<span> <i>Speaker:</i> {{ pub.speaker }} </span> 
-		<span> <a href="{{ pub.slides }}" target="_blank">Talk slides</a> </span>
+		{% if pub.slides %}
+			<span> <a href="{{ pub.slides }}" target="_blank">Talk slides</a> </span>
+		{% endif %}
 	</div>
 	{% if pub.abstract %}
 		<details>

@@ -3,8 +3,7 @@
   year: "2022"
   url: "https://dl.acm.org/doi/pdf/10.1145/3503222.3507744"
   speaker: "Sorav Bansal"
-  when: "TBD"
-  slides: "#"
+  when: "1-2:30 pm, 15 Apr 2022"
   abstract: >-
     Inlining is a core transformation in optimizing compilers. It replaces a
     function call (call site) with the body of the called function (callee).
