@@ -11,7 +11,7 @@ Eurosys, FAST, ATC, ASPLOS, PLDI, NSDI, SIGCOMM, MobiSys, and MobiCom.
 ## Logistics
 
 * *When:* Fridays 1-2:30pm
-* *Where:* SIT 411 or virtually in [MS Teams](https://teams.microsoft.com/l/team/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/conversations?groupId=7329f207-f51b-439c-90b2-36896cc7eeaa&tenantId=624d5c4b-45c5-4122-8cd0-44f0f84e945d).
+* *Where:* SIT 113 or virtually in [MS Teams](https://teams.microsoft.com/l/team/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/conversations?groupId=7329f207-f51b-439c-90b2-36896cc7eeaa&tenantId=624d5c4b-45c5-4122-8cd0-44f0f84e945d).
 
 
 *How can I give a talk?* 
