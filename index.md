@@ -6,7 +6,7 @@ layout: page
 toc: true
 ---
 We meet weekly to discuss papers from A\* system conferences: OSDI, SOSP,
-Eurosys, FAST, ATC, ASPLOS, PLDI, NSDI, SIGCOMM, MobiSys, and MobiCom.
+Eurosys, FAST, ATC, ASPLOS, POPL, PLDI, NSDI, SIGCOMM, MobiSys, and MobiCom.
 
 ## Logistics
 
