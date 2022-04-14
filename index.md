@@ -15,9 +15,9 @@ Eurosys, FAST, ATC, ASPLOS, POPL, PLDI, NSDI, SIGCOMM, MobiSys, and MobiCom.
 
 > If you are having trouble joining the Team from the link above, please fill
 [this form](https://forms.gle/Pv17nNVFrSaHPL2t6) and we will add you. Joining
-Teams will let you access any previous talk recordings. Otherwise, you may
-directly join the meeting by clicking on the "Talk link" in the "Schedule"
-below.
+Teams will let you access any previous talk recordings and you will get notified
+about the upcoming talks. Otherwise, you may directly join the meeting by
+clicking on the "Talk link" in the "Schedule" below.
 
 *How can I give a talk?* 
 * Easiest is to just send a PR to [this link](https://github.com/systems-rg/systems-rg.github.io).
