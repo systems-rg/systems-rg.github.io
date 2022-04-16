@@ -26,11 +26,7 @@ clicking on the "Talk link" in the "Schedule" below.
 ## Honor code
 If you will be unable to give the talk in your committed slot due to unforeseen
 emergency, let [Abhilash](mailto:ajindal@cse.iitd.ac.in) or
-[Sorav](mailto:sbansal@iitd.ac.in) ASAP.
-
-We will occasionally serve lunch. We will float a form to get the head count
-for such days.  If you've committed that you'll attend a session in-person,
-	please ensure that you do attend. 
+[Sorav](mailto:sbansal@iitd.ac.in) know ASAP.
 
 ## Schedule
 <ul>
@@ -41,12 +37,13 @@ for such days.  If you've committed that you'll attend a session in-person,
 	<div style="justify-content: space-between; display: flex">
 		<span> <i>When:</i> {{ pub.when }}</span>
 		<span> <i>Speaker:</i> {{ pub.speaker }} </span> 
-		<span> <a href="{{ pub.talk }}" target="_blank">Talk link</a> </span>
 		{% if pub.slides %}
 			<span> <a href="{{ pub.slides }}" target="_blank">Talk slides</a> </span>
 		{% endif %}
 		{% if pub.recording %}
 			<span> <a href="{{ pub.recording }}" target="_blank">Talk recording</a> </span>
+		{% elsif pub.talk %}
+			<span> <a href="{{ pub.talk }}" target="_blank">Talk link</a> </span>
 		{% endif %}
 	</div>
 	{% if pub.abstract %}
