@@ -45,6 +45,9 @@ for such days.  If you've committed that you'll attend a session in-person,
 		{% if pub.slides %}
 			<span> <a href="{{ pub.slides }}" target="_blank">Talk slides</a> </span>
 		{% endif %}
+		{% if pub.recording %}
+			<span> <a href="{{ pub.recording }}" target="_blank">Talk recording</a> </span>
+		{% endif %}
 	</div>
 	{% if pub.abstract %}
 		<details>
