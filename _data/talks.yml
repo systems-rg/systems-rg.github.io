@@ -1,9 +1,39 @@
+- title: "iReplayer: In-situ and Identical Record-and-Replay for Multithreaded Applications"
+  abbrvenue: "PLDI"
+  year: "2018"
+  url: "https://dl.acm.org/doi/10.1145/3132747.3132773"
+  speaker: "Abhilash Jindal"
+  spurl: "http://abhilash-jindal.com/"
+  talk: "https://teams.microsoft.com/l/meetup-join/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/1650873821677?context=%7b%22Tid%22%3a%22624d5c4b-45c5-4122-8cd0-44f0f84e945d%22%2c%22Oid%22%3a%228865a316-d74a-4cd5-b93a-66a46ac3d1d1%22%7d"
+  when: "1-2:30 pm, 29 Apr 2022"
+  abstract: >-
+    Reproducing executions of multithreaded programs is very challenging due to
+    many intrinsic and external non-deterministic factors. Existing RnR systems
+    achieve significant progress in terms of performance overhead, but none
+    targets the in-situ setting, in which replay occurs within the same process
+    as the recording process. Also, most existing work cannot achieve identical
+    replay, which may prevent the reproduction of some errors.
+
+    This paper presents iReplayer, which aims to identically replay
+    multithreaded programs in the original process (under the "in-situ"
+    setting). The novel in-situ and identical replay of iReplayer makes it more
+    likely to reproduce errors, and allows it to directly employ debugging
+    mechanisms (e.g. watchpoints) to aid failure diagnosis. Currently, iReplayer
+    only incurs 3% performance overhead on average, which allows it to be always
+    enabled in the production environment. iReplayer enables a range of
+    possibilities, and this paper presents three examples: two automatic tools
+    for detecting buffer overflows and use-after-free bugs, and one interactive
+    debugging tool that is integrated with GDB.
+
 - title: "Optimizing Big-Data Queries Using Program Synthesis"
   abbrvenue: "SOSP"
   year: "2017"
   url: "https://dl.acm.org/doi/10.1145/3132747.3132773"
   speaker: "Aditya Senthilnathan"
+  spurl: "https://adityanathan.github.io/"
   talk: "https://teams.microsoft.com/l/meetup-join/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/1650191927216?context=%7b%22Tid%22%3a%22624d5c4b-45c5-4122-8cd0-44f0f84e945d%22%2c%22Oid%22%3a%228865a316-d74a-4cd5-b93a-66a46ac3d1d1%22%7d"
+  recording: "https://csciitd.sharepoint.com/sites/SystemsReadingGroup/Shared%20Documents/General/Recordings/Meeting%20in%20_General_-20220422_130125-Meeting%20Recording.mp4?web=1"
+  slides: "https://docs.google.com/presentation/d/1UiXqp-wiJtdbjl_GqF4kobfka_Ocf3qYkXNJV-WH2BU/edit?usp=sharing"
   when: "1-2:30 pm, 22 Apr 2022"
   abstract: >-
     Classical query optimization relies on a predefined set of rewrite rules to
@@ -35,6 +65,7 @@
   year: "2022"
   url: "https://dl.acm.org/doi/pdf/10.1145/3503222.3507744"
   speaker: "Sorav Bansal"
+  spurl: "https://sorav.compiler.ai/"
   talk: "https://teams.microsoft.com/l/meetup-join/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/1649575739086?context=%7b%22Tid%22%3a%22624d5c4b-45c5-4122-8cd0-44f0f84e945d%22%2c%22Oid%22%3a%228865a316-d74a-4cd5-b93a-66a46ac3d1d1%22%7d"
   slides: "slides/inlining-150422.pdf"
   recording: "https://youtu.be/oHk_7zHjTGI"
