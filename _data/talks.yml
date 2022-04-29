@@ -1,7 +1,7 @@
 - title: "iReplayer: In-situ and Identical Record-and-Replay for Multithreaded Applications"
   abbrvenue: "PLDI"
   year: "2018"
-  url: "https://dl.acm.org/doi/10.1145/3132747.3132773"
+  url: "https://dl.acm.org/doi/10.1145/3192366.3192380"
   speaker: "Abhilash Jindal"
   slides: "slides/2022-04-29-iReplay.pdf"
   spurl: "http://abhilash-jindal.com/"
