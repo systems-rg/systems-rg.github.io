@@ -36,7 +36,11 @@ emergency, let [Abhilash](mailto:ajindal@cse.iitd.ac.in) or
 	<br/>
 	<div style="justify-content: space-between; display: flex">
 		<span> <i>When:</i> {{ pub.when }}</span>
-		<span> <i>Speaker:</i> <a href="{{ pub.spurl }}" target="_blank"> {{ pub.speaker }} </a> </span> 
+		{% if pub.spurl %}
+			<span> <i>Speaker:</i> <a href="{{ pub.spurl }}" target="_blank"> {{ pub.speaker }} </a> </span> 
+		{% else %}
+			<span> <i>Speaker:</i> {{ pub.speaker }} </span> 
+		{% endif %}
 		{% if pub.slides %}
 			<span> <a href="{{ pub.slides }}" target="_blank">Talk slides</a> </span>
 		{% endif %}
