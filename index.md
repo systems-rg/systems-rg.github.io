@@ -14,13 +14,13 @@ Eurosys, FAST, ATC, ASPLOS, POPL, PLDI, NSDI, SIGCOMM, MobiSys, and MobiCom.
 * *Where:* SIT 113 or virtually in [MS Teams](https://teams.microsoft.com/l/team/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/conversations?groupId=7329f207-f51b-439c-90b2-36896cc7eeaa&tenantId=624d5c4b-45c5-4122-8cd0-44f0f84e945d).
 
 > If you are having trouble joining the Team from the link above, please fill
-[this form](https://forms.gle/Pv17nNVFrSaHPL2t6) and we will add you. Joining
-Teams will let you access any previous talk recordings and you will get notified
+[this form](https://forms.gle/Pv17nNVFrSaHPL2t6), and we will add you. Joining
+Teams will also let you access any previous talk recordings, and you will get notified
 about the upcoming talks. Otherwise, you may directly join the meeting by
 clicking on the "Talk link" in the "Schedule" below.
 
 *How can I give a talk?* 
-* Easiest is to just send a PR to [this link](https://github.com/systems-rg/systems-rg.github.io).
+* Easiest is to send a PR to [this link](https://github.com/systems-rg/systems-rg.github.io).
 * Or you can let [Abhilash](mailto:ajindal@cse.iitd.ac.in) know when you'd like to give a talk.
 
 ## Honor code
