@@ -1,3 +1,31 @@
+- title: "Virtual Consensus in Delos"
+  abbrvenue: "OSDI"
+  year: "2020"
+  url: "https://dl.acm.org/doi/abs/10.5555/3488766.3488801"
+  speaker: "Prashant Agrawal"
+  talk: "https://teams.microsoft.com/l/meetup-join/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/1653279413005?context=%7b%22Tid%22%3a%22624d5c4b-45c5-4122-8cd0-44f0f84e945d%22%2c%22Oid%22%3a%228865a316-d74a-4cd5-b93a-66a46ac3d1d1%22%7d"
+  when: "1-2:30 pm, 27 May 2022"
+  abstract: >-
+    Consensus-based replicated systems are complex, monolithic, and difficult to
+    upgrade once deployed. As a result, deployed systems do not benefit from
+    innovative research, and new consensus protocols rarely reach production. We
+    propose virtualizing consensus by virtualizing the shared log API, allowing
+    services to change consensus protocols without downtime. Virtualization
+    splits the logic of consensus into the VirtualLog, a generic and reusable
+    reconfiguration layer; and pluggable ordering protocols called Loglets.
+    Loglets are simple, since they do not need to support reconfiguration or
+    leader election; diverse, consisting of different protocols, codebases, and
+    even deployment modes; and composable, via RAID-like stacking and striping.
+    We describe a production database called Delos1 which leverages virtual
+    consensus for rapid, incremental development and deployment. Delos reached
+    production within 8 months, and 4 months later upgraded its consensus
+    protocol without downtime for a 10X latency improvement. Delos can
+    dynamically change its performance properties by changing consensus
+    protocols: we can scale throughput by up to 10X by switching to a
+    disaggregated Loglet, and double the failure threshold of an instance
+    without sacrificing throughput via a striped Loglet.
+ 
+
 - title: "Predictable Accelerator Design with Time-Sensitive Affine Types"
   abbrvenue: "PLDI"
   year: "2020"
@@ -5,6 +33,8 @@
   speaker: "Madhukar Yerraguntla"
   spurl: "https://www.cse.iitd.ac.in/~madhukar/"
   talk: "https://teams.microsoft.com/l/meetup-join/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/1652074464673?context=%7b%22Tid%22%3a%22624d5c4b-45c5-4122-8cd0-44f0f84e945d%22%2c%22Oid%22%3a%228865a316-d74a-4cd5-b93a-66a46ac3d1d1%22%7d"
+  recording: "https://csciitd.sharepoint.com/sites/SystemsReadingGroup/Shared%20Documents/General/Recordings/Meeting%20in%20_General_-20220520_130403-Meeting%20Recording.mp4?web=1"
+  slides: "slides/2022-05-20-dahlia.pdf"
   when: "1-2:30 pm, 20 May 2022"
   abstract: >-
     Field-programmable gate arrays (FPGAs) provide an opportunity to co-design
