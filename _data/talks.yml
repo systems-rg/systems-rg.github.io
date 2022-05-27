@@ -1,3 +1,39 @@
+- title: "MVEDSUA: Higher Availability Dynamic Software Updates via Multi-Version Execution"
+  abbrvenue: ASPLOS
+  year: 2019
+  url: "https://dl.acm.org/doi/10.1145/3297858.3304063"
+  speaker: "Vishal Singh"
+  spurl: "https://www.linkedin.com/in/tmibvishal"
+  talk: "https://teams.microsoft.com/l/meetup-join/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/1653659308022?context=%7b%22Tid%22%3a%22624d5c4b-45c5-4122-8cd0-44f0f84e945d%22%2c%22Oid%22%3a%228865a316-d74a-4cd5-b93a-66a46ac3d1d1%22%7d"
+  when: "1-2:30 pm, 3 Jun 2022"
+  abstract: >-
+    Dynamic Software Updating (DSU) is a technique for patching stateful
+    software without shutting it down, which enables both timely updates and
+    non-stop service. Unfortunately, bugs in the update itself—whether in the
+    changed code or in the way the change is introduced dynamically—may cause
+    the updated software to crash or misbehave. Furthermore, the time taken to
+    dynamically apply the update may be unacceptable if it introduces a long
+    delay in service.
+    
+    This paper makes the key observation that both problems can be addressed by
+    employing Multi-Version Execution (MVE). To avoid delay in service, the
+    update is applied to a forked copy while the original system continues to
+    operate.  Once the update completes, the MVE system monitors that the
+    responses of both versions agree for the same inputs. Expected divergences
+    are specified by the programmer using an MVE-specific DSL. Unexpected
+    divergences signal possible errors and roll back the update, which simply
+    means terminating the updated version and reverting to the original version.
+    This is safe because the MVE system keeps the state of both versions in
+    sync. If the new version shows no problems after a warmup period, operators
+    can make it permanent and discard the original version.
+    
+    We have implemented this approach, which we call Mvedsua,1 by extending the
+    Kitsune DSU framework with Varan, a state-of-the-art MVE system. We have
+    used Mvedsua to update several high-performance servers: Redis, Memcached,
+    and Vsftpd. Our results show that Mvedsua significantly reduces the
+    update-time delay, imposes little overhead in steady state, and easily
+    recovers from a variety of update related errors.
+ 
 - title: "Virtual Consensus in Delos"
   abbrvenue: "OSDI"
   year: "2020"
@@ -5,6 +41,7 @@
   speaker: "Prashant Agrawal"
   talk: "https://teams.microsoft.com/l/meetup-join/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/1653279413005?context=%7b%22Tid%22%3a%22624d5c4b-45c5-4122-8cd0-44f0f84e945d%22%2c%22Oid%22%3a%228865a316-d74a-4cd5-b93a-66a46ac3d1d1%22%7d"
   when: "1-2:30 pm, 27 May 2022"
+  recording: "https://csciitd.sharepoint.com/sites/SystemsReadingGroup/Shared%20Documents/General/Recordings/Meeting%20in%20_General_-20220527_130155-Meeting%20Recording.mp4?web=1"
   abstract: >-
     Consensus-based replicated systems are complex, monolithic, and difficult to
     upgrade once deployed. As a result, deployed systems do not benefit from
