@@ -26,7 +26,7 @@
     custom policy. We present several examples of uses of Syrup to define
     application and workload-specific scheduling policies in a few lines of
     code, deploy them across the stack, and improve performance up to 8x
-   compared with default policies.
+    compared with default policies.
 
 - title: "Snowboard: Finding Kernel Concurrency Bugs through Systematic Inter-thread Communication Analysis"
   abbrvenue: SOSP
