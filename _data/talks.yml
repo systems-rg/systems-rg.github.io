@@ -1,9 +1,40 @@
+- title: "Syrup: User-Defined Scheduling Across the Stack"
+  abbrvenue: SOSP
+  year: 2021
+  url: "https://dl.acm.org/doi/10.1145/3477132.3483548"
+  speaker: Rijurekha Sen
+  talk: "https://teams.microsoft.com/l/meetup-join/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/1656346085752?context=%7b%22Tid%22%3a%22624d5c4b-45c5-4122-8cd0-44f0f84e945d%22%2c%22Oid%22%3a%228865a316-d74a-4cd5-b93a-66a46ac3d1d1%22%7d"
+  spurl: "https://www.cse.iitd.ac.in/~rijurekha/"
+  when: "1-2:30 pm, 8 Jul 2022"
+  abstract: >- 
+    Suboptimal scheduling decisions in operating systems, networking stacks, and
+    application runtimes are often responsible for poor application performance,
+    including higher latency and lower throughput. These poor decisions stem from a
+    lack of insight into the applications and requests the scheduler is handling
+    and a lack of coherence and coordination between the various layers of the
+    stack, including NICs, kernels, and applications.
+    
+    We propose Syrup, a framework for user-defined scheduling. Syrup enables
+    untrusted application developers to express application-specific scheduling
+    policies across these system layers without being burdened with the low-level
+    system mechanisms that implement them. Application developers write a
+    scheduling policy with Syrup as a set of matching functions between inputs
+    (threads, network packets, network connections) and
+    executors (cores, network sockets, NIC queues) and then deploy it across
+    system layers without modifying their code. Syrup supports multi-tenancy as
+    multiple co-located applications can each safely and securely specify a
+    custom policy. We present several examples of uses of Syrup to define
+    application and workload-specific scheduling policies in a few lines of
+    code, deploy them across the stack, and improve performance up to 8x
+   compared with default policies.
+
 - title: "Snowboard: Finding Kernel Concurrency Bugs through Systematic Inter-thread Communication Analysis"
   abbrvenue: SOSP
   year: 2021
   url: "https://dl.acm.org/doi/10.1145/3477132.3483549"
   speaker: Subodh Vishnu Sharma
   talk: "https://teams.microsoft.com/l/meetup-join/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/1656346085752?context=%7b%22Tid%22%3a%22624d5c4b-45c5-4122-8cd0-44f0f84e945d%22%2c%22Oid%22%3a%228865a316-d74a-4cd5-b93a-66a46ac3d1d1%22%7d"
+  recording: "https://csciitd.sharepoint.com/sites/SystemsReadingGroup/Shared%20Documents/General/Recordings/General-20220701_130533-Meeting%20Recording.mp4?web=1"
   spurl: "https://subodhvsharma.github.io/"
   when: "1-2:30 pm, 1 Jul 2022"
   abstract: >- 
