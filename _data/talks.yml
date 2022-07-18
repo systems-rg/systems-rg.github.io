@@ -1,9 +1,36 @@
+- title: "MICA: a holistic approach to fast in-memory key-value storage"
+  abbrvenue: NSDI
+  year: 2014
+  url: https://dl.acm.org/doi/10.5555/2616448.2616488
+  speaker: Saurav Bharti
+  talk: "https://teams.microsoft.com/l/meetup-join/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/1658126575956?context=%7b%22Tid%22%3a%22624d5c4b-45c5-4122-8cd0-44f0f84e945d%22%2c%22Oid%22%3a%228865a316-d74a-4cd5-b93a-66a46ac3d1d1%22%7d"
+  spurl: https://www.linkedin.com/in/saurav-bharti-ab793a87
+  when: "1-2:30 pm, 22 Jul 2022"
+  abstract: >- 
+    MICA is a scalable in-memory key-value store that handles 65.6 to 76.9 million
+    key-value operations per second using a single general-purpose multi-core
+    system. MICA is over 4-13.5x faster than current state-of-the-art systems,
+    while providing consistently high throughput over a variety of mixed read and
+    write workloads.
+
+    MICA takes a holistic approach that encompasses all aspects of request handling,
+    including parallel data access, network request handling, and data structure
+    design, but makes unconventional choices in each of the three domains. First,
+    MICA optimizes for multi-core architectures by enabling parallel access to
+    partitioned data. Second, for efficient parallel data access, MICA maps client
+    requests directly to specific CPU cores at the server NIC level by using
+    client-supplied information and adopts a light-weight networking stack that
+    bypasses the kernel. Finally, MICA's new data structures--circular logs, lossy
+    concurrent hash indexes, and bulk chaining--handle both read-and write-intensive
+    workloads at low overhead.
+
 - title: "Progressive polynomial approximations for fast correctly rounded math libraries"
   abbrvenue: PLDI
   year: 2022
   url: "https://dl.acm.org/doi/abs/10.1145/3519939.3523447"
   speaker: Sorav Bansal
   talk: "https://teams.microsoft.com/l/meetup-join/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/1657538569859?context=%7b%22Tid%22%3a%22624d5c4b-45c5-4122-8cd0-44f0f84e945d%22%2c%22Oid%22%3a%228865a316-d74a-4cd5-b93a-66a46ac3d1d1%22%7d"
+  recording: "https://csciitd.sharepoint.com/sites/SystemsReadingGroup/Shared%20Documents/General/Recordings/General-20220715_130148-Meeting%20Recording.mp4?web=1"
   spurl: "https://sorav.compiler.ai/"
   when: "1-2:30 pm, 15 Jul 2022"
   abstract: >- 
@@ -65,6 +92,7 @@
   talk: "https://teams.microsoft.com/l/meetup-join/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/1656346085752?context=%7b%22Tid%22%3a%22624d5c4b-45c5-4122-8cd0-44f0f84e945d%22%2c%22Oid%22%3a%228865a316-d74a-4cd5-b93a-66a46ac3d1d1%22%7d"
   recording: "https://csciitd.sharepoint.com/sites/SystemsReadingGroup/Shared%20Documents/General/Recordings/General-20220701_130533-Meeting%20Recording.mp4?web=1"
   spurl: "https://subodhvsharma.github.io/"
+  slides: "slides/2022-07-01-snowboard.pdf"
   when: "1-2:30 pm, 1 Jul 2022"
   abstract: >- 
     Kernel concurrency bugs are challenging to find because they
