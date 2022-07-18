@@ -33,6 +33,7 @@
   recording: "https://csciitd.sharepoint.com/sites/SystemsReadingGroup/Shared%20Documents/General/Recordings/General-20220715_130148-Meeting%20Recording.mp4?web=1"
   spurl: "https://sorav.compiler.ai/"
   when: "1-2:30 pm, 15 Jul 2022"
+  slides: "slides/2022-07-15-prog-polys.pptx"
   abstract: >- 
     This paper presents a novel method for generating a single polynomial
     approximation that produces correctly rounded results for all inputs of an
