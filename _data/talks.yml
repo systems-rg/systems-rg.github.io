@@ -63,6 +63,7 @@
   recording: "https://csciitd.sharepoint.com/sites/SystemsReadingGroup/Shared%20Documents/General/Recordings/General-20220708_130230-Meeting%20Recording.mp4?web=1"
   spurl: "https://www.cse.iitd.ac.in/~rijurekha/"
   when: "1-2:30 pm, 8 Jul 2022"
+  slides: "slides/2022-07-08-syrup.pdf"
   abstract: >- 
     Suboptimal scheduling decisions in operating systems, networking stacks, and
     application runtimes are often responsible for poor application performance,
