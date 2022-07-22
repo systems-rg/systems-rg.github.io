@@ -5,12 +5,13 @@
 layout: page
 toc: true
 ---
-We meet weekly to discuss papers from A\* system conferences: OSDI, SOSP,
-Eurosys, FAST, ATC, ASPLOS, POPL, PLDI, NSDI, SIGCOMM, MobiSys, and MobiCom.
+We meet ~~weekly~~ monthly to discuss papers from A\* system conferences: OSDI,
+SOSP, Eurosys, FAST, ATC, ASPLOS, POPL, PLDI, NSDI, SIGCOMM, MobiSys, and
+MobiCom.
 
 ## Logistics
 
-* *When:* Fridays 1-2:30pm IST
+* *When:* ~~Fridays 1-2:30pm IST~~ TBD
 * *Where:* SIT 113 or virtually in [MS Teams](https://teams.microsoft.com/l/team/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/conversations?groupId=7329f207-f51b-439c-90b2-36896cc7eeaa&tenantId=624d5c4b-45c5-4122-8cd0-44f0f84e945d).
 
 > If you are having trouble joining the Team from the link above, please fill
@@ -20,8 +21,7 @@ about the upcoming talks. Otherwise, you may directly join the meeting by
 clicking on the "Talk link" in the "Schedule" below.
 
 *How can I give a talk?* 
-* Easiest is to send a PR to [this link](https://github.com/systems-rg/systems-rg.github.io).
-* Or you can let [Abhilash](mailto:ajindal@cse.iitd.ac.in) know when you'd like to give a talk.
+* Let [Abhilash](mailto:ajindal@cse.iitd.ac.in) know when you'd like to give a talk.
 
 ## Honor code
 If you will be unable to give the talk in your committed slot due to unforeseen
@@ -37,9 +37,9 @@ emergency, let [Abhilash](mailto:ajindal@cse.iitd.ac.in) or
 	<div style="justify-content: space-between; display: flex">
 		<span> <i>When:</i> {{ pub.when }}</span>
 		{% if pub.spurl %}
-			<span> <i>Speaker:</i> <a href="{{ pub.spurl }}" target="_blank"> {{ pub.speaker }} </a> </span> 
+			<span> <i>Lead:</i> <a href="{{ pub.spurl }}" target="_blank"> {{ pub.speaker }} </a> </span> 
 		{% else %}
-			<span> <i>Speaker:</i> {{ pub.speaker }} </span> 
+			<span> <i>Lead:</i> {{ pub.speaker }} </span> 
 		{% endif %}
 		{% if pub.slides %}
 			<span> <a href="{{ pub.slides }}" target="_blank">Talk slides</a> </span>
