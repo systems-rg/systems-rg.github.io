@@ -5,13 +5,20 @@
 layout: page
 toc: true
 ---
-We meet ~~weekly~~ monthly to discuss papers from A\* system conferences: OSDI,
+
+<mark> The reading group has been put on hold until further notice.<mark> 
+> You may still fill [this form](https://forms.gle/Pv17nNVFrSaHPL2t6) to get
+added to the mailing list. We will send an email when we resume the group
+discussions.
+
+## About
+We meet weekly to discuss papers from A\* system conferences: OSDI,
 SOSP, Eurosys, FAST, ATC, ASPLOS, POPL, PLDI, NSDI, SIGCOMM, MobiSys, and
 MobiCom.
 
 ## Logistics
 
-* *When:* ~~Fridays 1-2:30pm IST~~ TBD
+* *When:* Fridays 1-2:30pm IST
 * *Where:* SIT 113 or virtually in [MS Teams](https://teams.microsoft.com/l/team/19%3aRCfaq891_efLuFCzx8w4qEjO4sFxH6d_7rQvBkWUwgc1%40thread.tacv2/conversations?groupId=7329f207-f51b-439c-90b2-36896cc7eeaa&tenantId=624d5c4b-45c5-4122-8cd0-44f0f84e945d).
 
 > If you are having trouble joining the Team from the link above, please fill
