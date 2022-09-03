@@ -7,7 +7,7 @@ toc: true
 ---
 
 # Winter systems school, IITD
-**Supported by the Mohit Aaron Endowment**
+**Supported by the Mohit Aron Endowment**
 
 ## About
 We are excited to host the first winter systems school at CSE, IIT Delhi. We
