@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-toc: true
+toc: false
 ---
 
 # Winter systems school, IITD
@@ -25,6 +25,10 @@ experience, and online discussion forums.
 * **Financial support**: Lodging will be provided at the IIT Delhi campus
 free-of-charge. Some funds are also available for reimbursing travel
 expenditure.
+
+> Please note that we will NOT give any certificate of completion and will
+NOT provide recommendation letters to graduate schools or otherwise for
+participating in the WSS.
 
 ## Tentative topics
 
