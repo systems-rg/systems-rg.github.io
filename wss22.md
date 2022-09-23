@@ -14,13 +14,14 @@ We are excited to host the first winter systems school at CSE, IIT Delhi. We
 will study two computer systems areas: cybersecurity and cloud computing. 
 
 ## Logistics
-* **Duration**: Dec 4th-9th, 2022.
+* **Duration**: Dec 5th-9th, 2022.
 * **Eligibility**: Indian UG/PG students interested in systems. Must have
   completed pre-requisite courses: OS and compilers.
-* **Admissions**: We will conduct an online test. Details will be communicated
-	over email. Apply by filling [this form](https://forms.gle/HK2hMBmqv1nRpYQx8). 
-* **Cohort size**: Upto 100 students. Selected students will be offered paid
-	summer internships at IIT Delhi in Summer 2023.
+* **Admissions**: We will conduct an online programming test. Details will be
+	communicated over email. You can apply now by filling [this
+	form](https://forms.gle/HK2hMBmqv1nRpYQx8). 
+* **Cohort size**: Upto 100 students. Selected students will also be offered
+	paid internships at IIT Delhi during summer 2023.
 * **Format**: In-class discussions, programming assignments providing hands-on
   experience, and online discussion forums.
 * **Financial support**: Lodging will be provided at the IIT Delhi campus
@@ -29,7 +30,11 @@ will study two computer systems areas: cybersecurity and cloud computing.
 
 > Please note that we will NOT give any certificate of completion and will
 NOT provide recommendation letters to graduate schools or otherwise for
-participating in the WSS.
+participating in the school.
+
+Please help us advertise the school in your campus by sending [this
+email](./wss22-email.md) to students and/or by posting [this
+poster](./slides/wss22.pdf).
 
 ## Inaugural talk
 The school will be inaugurated by [Mohit
@@ -51,7 +56,6 @@ Science from Indian Institute of Technology, Delhi, India.
 The title of his talk is "The Entrepreneurial Journey".
 
 ## Tentative topics
-
 ### Cybersecurity:
 
 Instructor: [Sorav Bansal](https://sorav.compiler.ai)
