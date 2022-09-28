@@ -6,10 +6,12 @@ layout: page
 toc: true
 ---
 
-<mark> The reading group has been put on hold until further notice.<mark> 
-> You may still fill [this form](https://forms.gle/Pv17nNVFrSaHPL2t6) to get
-added to the mailing list. We will send an email when we resume the group
-discussions.
+**We are hosting a winter systems school at IITD. More details
+[here](./wss22).**
+
+> The reading group has been put on hold until further notice. You may still
+fill [this form](https://forms.gle/Pv17nNVFrSaHPL2t6) to get added to the
+mailing list. We will send an email when we resume the group discussions.
 
 ## About
 We meet weekly to discuss papers from A\* system conferences: OSDI,
