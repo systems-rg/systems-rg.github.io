@@ -34,7 +34,7 @@ participating in the school.
 
 Please help us advertise the school in your campus by sending [this
 email](./wss22-email.md) to students and/or by posting [this
-poster](./slides/wss22.pdf).
+poster](./slides/wss22.pdf). You can reach out to us at wss22@googlegroups.com.
 
 ## Inaugural talk
 The school will be inaugurated by [Mohit
