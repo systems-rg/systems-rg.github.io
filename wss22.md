@@ -15,16 +15,24 @@ will study two system areas: cybersecurity and cloud computing.
 
 ## Logistics
 * **Duration**: Dec 4th-10th.
-* **Eligibility**: Indian UG/PG students interested in systems. Must have
-completed pre-requisite courses: OS and compilers.
+* **Eligibility**: Anyone interested in computer systems. This includes UG/PG
+students and industry professionals. They must have completed pre-requisite
+courses: OS and compilers.
 * **Admissions**: We will conduct an online test. Details TBD.
-* **Cohort size**: Upto 100 students. 4 students will be selected for doing a summer
+* **Cohort size**: Upto 100. 4 students will be selected for doing a summer
 internship.
 * **Format**: In-class discussions, programming assignments providing hands-on
 experience, and online discussion forums.
 * **Financial support**: Lodging will be provided at the IIT Delhi campus
 free-of-charge. Some funds are also available for reimbursing travel
 expenditure.
+
+> **Interviewing at MSR**: Selected individuals will also get interviewing
+opportunity with [Microsoft
+research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/)
+for Systems Research Fellow and for Systems Intern positions. MSR may skip some
+of their interview rounds for these individuals.
+
 
 ## Tentative topics
 
