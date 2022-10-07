@@ -3,38 +3,88 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-toc: true
+toc: false
 ---
 
-# Winter systems school, IITD
-**Supported by the Mohit Aaron Endowment**
+# Winter Systems School, IITD
+**Supported by the Mohit Aron Endowment**
 
 ## About
 We are excited to host the first winter systems school at CSE, IIT Delhi. We
-will study two system areas: cybersecurity and cloud computing.
+will study two computer systems areas: cybersecurity and cloud computing. 
 
 ## Logistics
-* **Duration**: Dec 4th-10th.
+* **Duration**: Dec 5th-9th, 2022.
 * **Eligibility**: Anyone interested in computer systems. This includes UG/PG
 students and industry professionals. They must have completed pre-requisite
 courses: OS and compilers.
-* **Admissions**: We will conduct an online test. Details TBD.
-* **Cohort size**: Upto 100. 4 students will be selected for doing a summer
-internship.
+* **Admissions**: We will conduct an online programming test. Details will be
+communicated over email. You can apply now by filling [this
+form](https://forms.gle/HK2hMBmqv1nRpYQx8). 
+* **Cohort size**: Upto 100. 
 * **Format**: In-class discussions, programming assignments providing hands-on
 experience, and online discussion forums.
 * **Financial support**: Lodging will be provided at the IIT Delhi campus
 free-of-charge. Some funds are also available for reimbursing travel
 expenditure.
-
-> **Interviewing at MSR**: Selected individuals will also get interviewing
-opportunity with [Microsoft
-research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/)
+* **After winter school**: Selected students will also be offered
+**paid internships at IIT Delhi** during summer 2023. Selected individuals will
+also get interviewing opportunity with **[Microsoft
+research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/)**
 for Systems Research Fellow and for Systems Intern positions. MSR may skip some
 of their interview rounds for these individuals.
 
+> Please note that we will NOT give any certificate of completion and will
+NOT provide recommendation letters to graduate schools or otherwise for
+participating in the school.
 
-## Tentative topics
+Please help us advertise the school in your campus by sending [this
+email](./wss22-email.md) to students and/or by posting [this
+poster](./slides/wss22.pdf). You can reach out to us at wss22@googlegroups.com.
+
+## Inaugural talk
+The school will be inaugurated by [Mohit
+Aron](https://en.wikipedia.org/wiki/Mohit_Aron). Mohit has over 15 years of
+experience building scalable, high-performance distributed systems, and has
+been attributed as the father of hyperconvergence. Aron founded his current
+company  Cohesity in 2013 and co-founded Nutanix in 2009. Prior to founding
+Nutanix, Aron was at Google as a lead developer on the Google File System
+engineering project. 
+
+Among many prestigious awards, Cohesity has received since its inception,
+Cohesity was named by the World Economic Forum (WEF) as one of the world’s 61
+most promising Technology Pioneers 2018.
+
+Aron graduated with a Ph.D. in Computer Science from Rice University with a
+focus on distributed systems. He holds a Bachelor of Science in Computer
+Science from Indian Institute of Technology, Delhi, India.
+
+> Please note that we will NOT give any certificate of completion and will
+NOT provide recommendation letters to graduate schools or otherwise for
+participating in the school.
+
+Please help us advertise the school in your campus by sending [this
+email](./wss22-email.md) to students and/or by posting [this
+poster](./slides/wss22.pdf). You can reach out to us at wss22@googlegroups.com.
+
+## Inaugural talk
+The school will be inaugurated by [Mohit
+Aron](https://en.wikipedia.org/wiki/Mohit_Aron). Mohit has over 15 years of
+experience building scalable, high-performance distributed systems, and has
+been attributed as the father of hyperconvergence. Aron founded his current
+company  Cohesity in 2013 and co-founded Nutanix in 2009. Prior to founding
+Nutanix, Aron was at Google as a lead developer on the Google File System
+engineering project. 
+
+Among many prestigious awards, Cohesity has received since its inception,
+Cohesity was named by the World Economic Forum (WEF) as one of the world’s 61
+most promising Technology Pioneers 2018.
+
+Aron graduated with a Ph.D. in Computer Science from Rice University with a
+focus on distributed systems. He holds a Bachelor of Science in Computer
+Science from Indian Institute of Technology, Delhi, India.
+
+The title of his talk is "The Entrepreneurial Journey".
 
 ### Cybersecurity:
 
@@ -52,9 +102,15 @@ approaches?
 
 **List of Topics:**
 
-Known Software Defects:  Buffer overflow attacks, format-string vulnerabilities, SQL Injection Attacks, Time-of-Check-to-Time-of-Use Bugs, Timing-based Side Channels (e.g., Spectre), Compiler-based Attacks, …
-Prevention Approaches: Use of Safe Languages, Safe Library Interfaces, Canaries, Address Space Layout Randomization, Compiler-Emitted Checks, Information Flow Tracking, …
-Automatic Approaches and Tools: Fuzzing, Symbolic Execution, Use of Theorem Provers and Other Formal Methods, Dataflow Analyses on Source Code and Binary Executable, …
+* Known Software Defects:  Buffer overflow attacks, format-string
+	vulnerabilities, SQL Injection Attacks, Time-of-Check-to-Time-of-Use Bugs,
+	Timing-based Side Channels (e.g., Spectre), Compiler-based Attacks, …
+* Prevention Approaches: Use of Safe Languages, Safe Library Interfaces,
+	Canaries, Address Space Layout Randomization, Compiler-Emitted Checks,
+	Information Flow Tracking, …
+* Automatic Approaches and Tools: Fuzzing, Symbolic Execution, Use of Theorem
+	Provers and Other Formal Methods, Dataflow Analyses on Source Code and Binary
+	Executable, …
 
 
 ### Cloud computing:
