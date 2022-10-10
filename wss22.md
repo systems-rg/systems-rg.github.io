@@ -2,11 +2,11 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
+title: Winter Systems School, IITD
 layout: page
 toc: false
 ---
 
-# Winter Systems School, IITD
 **Supported by the Mohit Aron Endowment**
 
 ## About
@@ -33,31 +33,6 @@ also get interviewing opportunity with **[Microsoft
 research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/)**
 for Systems Research Fellow and for Systems Intern positions. MSR may skip some
 of their interview rounds for these individuals.
-
-> Please note that we will NOT give any certificate of completion and will
-NOT provide recommendation letters to graduate schools or otherwise for
-participating in the school.
-
-Please help us advertise the school in your campus by sending [this
-email](./wss22-email.md) to students and/or by posting [this
-poster](./slides/wss22.pdf). You can reach out to us at wss22@googlegroups.com.
-
-## Inaugural talk
-The school will be inaugurated by [Mohit
-Aron](https://en.wikipedia.org/wiki/Mohit_Aron). Mohit has over 15 years of
-experience building scalable, high-performance distributed systems, and has
-been attributed as the father of hyperconvergence. Aron founded his current
-company  Cohesity in 2013 and co-founded Nutanix in 2009. Prior to founding
-Nutanix, Aron was at Google as a lead developer on the Google File System
-engineering project. 
-
-Among many prestigious awards, Cohesity has received since its inception,
-Cohesity was named by the World Economic Forum (WEF) as one of the world’s 61
-most promising Technology Pioneers 2018.
-
-Aron graduated with a Ph.D. in Computer Science from Rice University with a
-focus on distributed systems. He holds a Bachelor of Science in Computer
-Science from Indian Institute of Technology, Delhi, India.
 
 > Please note that we will NOT give any certificate of completion and will
 NOT provide recommendation letters to graduate schools or otherwise for
