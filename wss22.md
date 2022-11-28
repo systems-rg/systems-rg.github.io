@@ -11,22 +11,11 @@ toc: false
 
 ## About
 We are excited to host the first winter systems school at CSE, IIT Delhi. We
-will study two computer systems areas: cybersecurity and cloud computing. 
+will study two computer systems areas: cybersecurity, taught by [Sorav
+Bansal](https://sorav.compiler.ai), and cloud computing, taught by [Abhilash
+Jindal](https://abhilash-jindal.com). 
 
 ## Logistics
-* **Duration**: Dec 5th-9th, 2022.
-* **Eligibility**: Anyone interested in computer systems. This includes UG/PG
-students and industry professionals. They must have completed pre-requisite
-courses: OS and compilers.
-* **Admissions**: We will conduct an online programming test. Details will be
-communicated over email. You can apply now by filling [this
-form](https://forms.gle/HK2hMBmqv1nRpYQx8). 
-* **Cohort size**: Upto 100. 
-* **Format**: In-class discussions, programming assignments providing hands-on
-experience, and online discussion forums.
-* **Financial support**: Lodging will be provided at the IIT Delhi campus
-free-of-charge. Some funds are also available for reimbursing travel
-expenditure.
 * **After winter school**: Selected students will also be offered
 **paid internships at IIT Delhi** during summer 2023. Selected individuals will
 also get interviewing opportunity with **[Microsoft
@@ -37,10 +26,6 @@ of their interview rounds for these individuals.
 > Please note that we will NOT give any certificate of completion and will
 NOT provide recommendation letters to graduate schools or otherwise for
 participating in the school.
-
-Please help us advertise the school in your campus by sending [this
-email](./wss22-email.md) to students and/or by posting [this
-poster](./slides/wss22.pdf). You can reach out to us at wss22@googlegroups.com.
 
 ## Inaugural talk
 The school will be inaugurated by [Mohit
@@ -61,9 +46,16 @@ Science from Indian Institute of Technology, Delhi, India.
 
 The title of his talk is "The Entrepreneurial Journey".
 
-### Cybersecurity:
+### Tentative schedule:
 
-Instructor: [Sorav Bansal](https://sorav.compiler.ai)
+|-------|-|-|-|-|
+5th Dec | 9-10:20 am <br/> Inaugural talk by [Mohit Aron](https://en.wikipedia.org/wiki/Mohit_Aron) |  10:30 am-11:50 pm <br/> Cybersecurity.   | 12 pm-1:20 pm <br/> Cloud. <br/> Why cloud? DSM. | 3-6 pm <br/> Lab |
+6th Dec | 9-10:50 am <br/> Cybersecurity |  11 am-12:50 pm <br/> Cloud. <br/> MapReduce, Spark. | | 2:30 pm-6 pm <br/> Lab |
+7th Dec | 9-10:50 am <br/> Cybersecurity |  11 am-12:50 pm <br/> Cloud. <br/> Spark streaming, Flink. | | 2:30 pm-6 pm <br/> Lab |
+8th Dec | 9-10:50 am <br/> Cybersecurity |  11 am-12:50 pm <br/> Cloud. <br/> Raft | 2:30-4:20 pm <br/> Cloud. <br/> Google File System | 4:30 pm-6 pm <br/> Lab |
+9th Dec | 9-10:50 am <br/> Cybersecurity |  | | |
+
+### Cybersecurity:
 
 **Questions we will attempt to answer:**
 * What are some known software defects that allow malicious hackers to take
@@ -86,14 +78,3 @@ approaches?
 * Automatic Approaches and Tools: Fuzzing, Symbolic Execution, Use of Theorem
 	Provers and Other Formal Methods, Dataflow Analyses on Source Code and Binary
 	Executable, …
-
-
-### Cloud computing:
-
-Instructor: [Abhilash Jindal](https://abhilash-jindal.com)
-
-**List of topics:**
-
-* How to do batch computations at scale? MapReduce (Hadoop), Spark.
-* How to do streaming computations at scale? Spark streaming, Flink.
-* How to store data at scale? Google File system, Raft.
