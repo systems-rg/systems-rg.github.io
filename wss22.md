@@ -48,7 +48,9 @@ Aron graduated with a Ph.D. in Computer Science from Rice University with a
 focus on distributed systems. He holds a Bachelor of Science in Computer
 Science from Indian Institute of Technology, Delhi, India.
 
-The title of his talk is "The Entrepreneurial Journey".
+The title of his talk is "The Entrepreneurial Journey". It can be attended
+online using [this
+link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2NmYWEzNTYtYTMzMS00Y2JlLTlmYWUtMjYwYzAyNTQ3NDll%40thread.v2/0?context=%7b%22Tid%22%3a%22624d5c4b-45c5-4122-8cd0-44f0f84e945d%22%2c%22Oid%22%3a%2245fc8017-1b85-4df2-8d66-89beabb204ca%22%7d).
 
 ### Tentative schedule:
 
