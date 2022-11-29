@@ -49,11 +49,11 @@ The title of his talk is "The Entrepreneurial Journey".
 ### Tentative schedule:
 
 |-------|-|-|-|-|
-5th Dec | 9-10:20 am <br/> Inaugural talk by [Mohit Aron](https://en.wikipedia.org/wiki/Mohit_Aron) |  10:30 am-11:50 pm <br/> Cybersecurity.   | 12 pm-1:20 pm <br/> Cloud. <br/> Why cloud? DSM. | 3-6 pm <br/> Lab |
-6th Dec | 9-10:50 am <br/> Cybersecurity |  11 am-12:50 pm <br/> Cloud. <br/> MapReduce, Spark. | | 2:30 pm-6 pm <br/> Lab |
-7th Dec | 9-10:50 am <br/> Cybersecurity |  11 am-12:50 pm <br/> Cloud. <br/> Spark streaming, Flink. | | 2:30 pm-6 pm <br/> Lab |
-8th Dec | 9-10:50 am <br/> Cybersecurity |  11 am-12:50 pm <br/> Cloud. <br/> Raft | 2:30-4:20 pm <br/> Cloud. <br/> Google File System | 4:30 pm-6 pm <br/> Lab |
-9th Dec | 9-10:50 am <br/> Cybersecurity |  | | |
+5th Dec | 9-10:20 am <br/> Inaugural talk by [Mohit Aron](https://en.wikipedia.org/wiki/Mohit_Aron) |  10:30 am-11:50 pm <br/> Cybersecurity. <br/> Examples of Software defects that cause Security Vulnerabilities. <br/> Buffer overflows <br/> Format-string and Cross-site scripting <br/> Time-of-check-to-time-of-use bugs <br/> User/kernel bugs <br/> Resource Exhaustion bugs. | 12 pm-1:20 pm <br/> Cloud. <br/> Why cloud? DSM. | 3-6 pm <br/> Lab |
+6th Dec | 9-10:50 am <br/> Cybersecurity. <br/> More examples of Software defects. <br/> Cache side channels. <br/> Crash-consistency bugs. <br/> Data Lifetime in Memory and its Implications. <br/> |  11 am-12:50 pm <br/> Cloud. <br/> MapReduce, Spark. | | 2:30 pm-6 pm <br/> Lab |
+7th Dec | 9-10:50 am <br/> Cybersecurity. <br/> Automatic Identification of Software Defects. <br/> Static Checkers (static and symbolic analyses, dataflow analysis/abstract interpretation). <br/> Dynamic Checkers (Taint Analysis, Safe Memory Allocators, Model Checking, Fuzzing). |  11 am-12:50 pm <br/> Cloud. <br/> Spark streaming, Flink. | | 2:30 pm-6 pm <br/> Lab |
+8th Dec | 9-10:50 am <br/> Cybersecurity. <br> Prevention Approaches. <br/>	Use of Safe Languages and Library Interfaces. <br/> Canaries. <br/> Address-space Layout Randomization. |  11 am-12:50 pm <br/> Cloud. <br/> Raft | 2:30-4:20 pm <br/> Cloud. <br/> Google File System | 4:30 pm-6 pm <br/> Lab |
+9th Dec | 9-10:50 am <br/> Cybersecurity. <br/>Reflections on Trusting Trust (by Ken Thompson) <br/> |  | | |
 
 ### Cybersecurity:
 
