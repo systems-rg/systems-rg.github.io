@@ -19,7 +19,10 @@ inputs. This is trivially true on our single system. In a real setup, workers
 would additionally use a distributed file system like HDFS or a blob store like 
 S3.
 
-## Lab-0: Basic parallel program using threads
+Please keep track of every lab's work and the code. You will be asked to upload
+a report covering all the labs in the end.
+
+## Lab 1: Basic parallel program using threads
 
 ### Part 1
 The goal of this lab is to have the basic setup working. You need to have
