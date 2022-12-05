@@ -2,41 +2,36 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
+title: Winter Systems School, IITD
 layout: page
 toc: false
 ---
 
-# Winter Systems School, IITD
 **Supported by the Mohit Aron Endowment**
 
 ## About
 We are excited to host the first winter systems school at CSE, IIT Delhi. We
-will study two computer systems areas: cybersecurity and cloud computing. 
+will study two computer systems areas: cybersecurity, taught by [Sorav
+Bansal](https://sorav.compiler.ai), and cloud computing, taught by [Abhilash
+Jindal](https://abhilash-jindal.com). 
 
 ## Logistics
-* **Duration**: Dec 5th-9th, 2022.
-* **Eligibility**: Indian UG/PG students interested in systems. Must have
-  completed pre-requisite courses: OS and compilers.
-* **Admissions**: We will conduct an online programming test. Details will be
-	communicated over email. You can apply now by filling [this
-	form](https://forms.gle/HK2hMBmqv1nRpYQx8). 
-* **Cohort size**: Upto 100 students. Selected students will also be offered
-	paid internships at IIT Delhi during summer 2023.
-* **Format**: In-class discussions, programming assignments providing hands-on
-  experience, and online discussion forums.
-* **Financial support**: Lodging will be provided at the IIT Delhi campus
-  free-of-charge. Some funds are also available for reimbursing travel
-  expenditure.
+* **Venue:** The talks will be in Bharti 301 (2nd floor, Bharti building) and
+the labs will be in LH504 and LH505 (5th floor, Lecture hall complex).
+* **After winter school**: Selected students will also be offered
+**paid internships at IIT Delhi** during summer 2023. Selected individuals will
+also get interviewing opportunity with **[Microsoft
+research](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/)**
+for Systems Research Fellow and for Systems Intern positions. MSR may skip some
+of their interview rounds for these individuals.
 
 > Please note that we will NOT give any certificate of completion and will
 NOT provide recommendation letters to graduate schools or otherwise for
 participating in the school.
 
-Please help us advertise the school in your campus by sending [this
-email](./wss22-email.md) to students and/or by posting [this
-poster](./slides/wss22.pdf). You can reach out to us at wss22@googlegroups.com.
-
 ## Inaugural talk
+#### December 5th, 9-10:30 am
+
 The school will be inaugurated by [Mohit
 Aron](https://en.wikipedia.org/wiki/Mohit_Aron). Mohit has over 15 years of
 experience building scalable, high-performance distributed systems, and has
@@ -53,42 +48,15 @@ Aron graduated with a Ph.D. in Computer Science from Rice University with a
 focus on distributed systems. He holds a Bachelor of Science in Computer
 Science from Indian Institute of Technology, Delhi, India.
 
-The title of his talk is "The Entrepreneurial Journey".
+The title of his talk is "The Entrepreneurial Journey". It can be attended
+online using [this
+link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2NmYWEzNTYtYTMzMS00Y2JlLTlmYWUtMjYwYzAyNTQ3NDll%40thread.v2/0?context=%7b%22Tid%22%3a%22624d5c4b-45c5-4122-8cd0-44f0f84e945d%22%2c%22Oid%22%3a%2245fc8017-1b85-4df2-8d66-89beabb204ca%22%7d).
 
-## Tentative topics
-### Cybersecurity:
+### Tentative schedule:
 
-Instructor: [Sorav Bansal](https://sorav.compiler.ai)
-
-**Questions we will attempt to answer:**
-* What are some known software defects that allow malicious hackers to take
-control of a computer system?
-* What are some common approaches that have been developed to prevent these
-software defects?
-* What are some automatic approaches and tools to try and uncover these defects
-to be able to break into computer systems?  What are the high-level principles
-behind these approaches?  What are the strengths and limitations of these
-approaches?
-
-**List of Topics:**
-
-* Known Software Defects:  Buffer overflow attacks, format-string
-	vulnerabilities, SQL Injection Attacks, Time-of-Check-to-Time-of-Use Bugs,
-	Timing-based Side Channels (e.g., Spectre), Compiler-based Attacks, …
-* Prevention Approaches: Use of Safe Languages, Safe Library Interfaces,
-	Canaries, Address Space Layout Randomization, Compiler-Emitted Checks,
-	Information Flow Tracking, …
-* Automatic Approaches and Tools: Fuzzing, Symbolic Execution, Use of Theorem
-	Provers and Other Formal Methods, Dataflow Analyses on Source Code and Binary
-	Executable, …
-
-
-### Cloud computing:
-
-Instructor: [Abhilash Jindal](https://abhilash-jindal.com)
-
-**List of topics:**
-
-* How to do batch computations at scale? MapReduce (Hadoop), Spark.
-* How to do streaming computations at scale? Spark streaming, Flink.
-* How to store data at scale? Google File system, Raft.
+|-------|-|-|-|
+5th Dec | **10:30 am-11:50 pm** <br/> *Cybersecurity: Examples of software defects that cause Security Vulnerabilities.* <br/> Buffer overflows <br/> Format-string and Cross-site scripting <br/> Time-of-check-to-time-of-use bugs <br/> User/kernel bugs <br/> Resource Exhaustion bugs. | **12 pm-1:20 pm** <br/> *Cloud: Why cloud? Struggles with DSM*. <br/> Goals: Fault tolerance, heterogeneity, performance, proximity, scalability, etc. <br/> Distributed shared memory. | **3-5 pm** <br/> Lab |
+6th Dec | **9-10:50 am** <br/> *Cybersecurity: More examples of software defects.* <br/> Cache side channels. <br/> Crash-consistency bugs. <br/> Data Lifetime in Memory and its Implications. <br/> |  **11 am-12:50 pm** <br/> *Cloud: MapReduce, Spark.* <br/> Programming model: deterministic computation, immutable inputs <br/> Lineage <br/> Fault tolerance <br/> Straggler mitigation | **2:30-5 pm** <br/> Lab |
+7th Dec | **9-10:50 am** <br/> *Cybersecurity: Automatic identification of software defects.* <br/> Static Checkers (static and symbolic analyses, dataflow analysis/abstract interpretation). <br/> Dynamic Checkers (Taint Analysis, Safe Memory Allocators, Model Checking, Fuzzing). |  **11 am-12:50 pm** <br/> *Cloud: Spark streaming, Flink.* <br/> Continuous operator model <br/> Primary-backup replication <br/> Discretized Streams <br/> Freshness <br/> Consistent checkpoints <br/> Chandy-lamport algorithm in Flink. | **2:30-5 pm** <br/> Lab |
+8th Dec | **9-10:50 am** <br/> *Cybersecurity: Prevention Approaches.* <br/>	Use of Safe Languages and Library Interfaces. <br/> Canaries. <br/> Address-space Layout Randomization. |  **11 am-12:50 pm** <br/> *Cloud: Raft* <br/> Linearizability <br/> Quorums <br/> Safety and liveness <br/> Replicated state machines. | **3-4:50 pm** <br/> *Cloud: Amazon Dynamo, CRDTs* <br/> PACELC theorem <br/> Eventual consistency <br/> Conflict-free replicated data types. |
+9th Dec | **9-10:50 am** <br/> *Cybersecurity: Reflections on Trusting Trust (by Ken Thompson)* <br/> |  **11 am-12:50 pm** <br/> Lab | **2:30-5 pm** <br/> Lab|

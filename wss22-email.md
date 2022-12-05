@@ -8,7 +8,7 @@ You should apply only if you are interested in computer systems.  All applicants
 
 The applications are now open at https://forms.gle/HK2hMBmqv1nRpYQx8 until October 15th. The details of the online test will be communicated to the applicants over email.
 
-Selected student attendees will also be offered paid summer internships at IIT Delhi in 2023.
+Selected student attendees will also be offered paid summer internships at IIT Delhi in 2023. Selected individuals will also get interviewing opportunity with Microsoft research for Systems Research Fellow and for Systems Intern positions. MSR may skip some of their interview rounds for these individuals.
 
 The school is supported by the Mohit Aron Endowment. The schedule includes an inaugural talk on the entrepreneurial journey by Mohit. Mohit is an IITD alumnus and has founded Cohesity and Nutanix.
 
