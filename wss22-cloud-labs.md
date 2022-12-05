@@ -2,11 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
+title: Cloud labs for WSS, 2022
 layout: page
 toc: false
 ---
-
-# Cloud labs for WSS, 2022
 
 We will build a distributed word count application. But for simplicity, we will
 pretend that our multi-core system is a distributed system in itself.
