@@ -53,8 +53,8 @@ serial program, $p$ is the number of workers, and $T_p$ is the time taken by the
 parallel program. Next, draw the efficiency curves that we saw during the
 lecture hours. 
 
-* Keep the input files the same, and increase the number of threads. 
-* Keep the number of threads the same, increase the number of input files. 
+* Keep the input files the same, and increase the number of workers. 
+* Keep the number of workers the same, increase the number of input files. 
 
 ### Part 2
 Once you are done with Part 1, familiarize yourself with
