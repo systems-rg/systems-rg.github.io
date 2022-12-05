@@ -43,9 +43,10 @@ will use this program to verify that your parallel system is correctly
 counting the words and is hopefully much faster.
 
 Once you're done with this, write a parallel program using python
-[threads](https://docs.python.org/3/library/threading.html). Convince yourself
-that your multi-threaded program is giving the same output as your serial
-program. 
+~~[threads](https://docs.python.org/3/library/threading.html)~~
+[multiprocessing](https://docs.python.org/3/library/multiprocessing.html).
+Convince yourself that your parallel program is giving the same output as your
+serial program. 
 
 Remember that $Efficiency = T_s / p T_p$, where $T_s$ is the time taken by the
 serial program, $p$ is the number of workers, and $T_p$ is the time taken by the
