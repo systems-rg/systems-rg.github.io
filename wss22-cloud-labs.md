@@ -71,3 +71,59 @@ and from python programs using the [redis-py](https://github.com/redis/redis-py)
 library. Especially familiarize yourself with [sorted
 sets](https://redis.io/commands/zadd/). You will use them later to maintain word
 counts.
+
+## Lab-2: Parallel execution
+
+In this lab, we will make the word count application run end-to-end using Redis.
+
+But before that, you should read about
+[redis streams](https://redis.io/docs/data-types/streams-tutorial/). You need
+the following redis stream commands for this lab: `xadd`, `xreadgroup`,
+`xcreate_group` and `xack`. Understand what they do.
+
+Download the [starter code](assets/wss22-starter-lab2.zip). 
+
+```commandline
+unzip wss22-starter-lab2.zip
+cd wss22-starter-lab2/
+pip3 install -r requirements.txt
+redis-cli CONFIG SET requirepass "pass"
+```
+
+Update `GLOB` in `constants.py` to point to your `data` folder.  Run 
+`python3 client.py`. In this lab, you have to modify `worker.py` and `myrds.py`.
+
+The basic structure is as follows: 
+
+* `client.py` iterates over the folder with the text files to add the file paths
+  into a redis stream using `xadd`. It then starts the worker processes.
+* Worker processes do `xreadgroup` to read one file name from the Redis stream.
+  Call `xreadgroup` such that each worker gets a different file name.
+* Worker process reads the file it is supposed to work on and counts
+  each word's frequency. 
+* When done, the worker process can use `zincrby` to increment each word's count
+  in a redis sorted set. And finally `xack` the message containing the filename.
+* Then it reads another file by again calling `xreadgroup`. If there are no 
+  more files to process, it exits.
+
+Measurements:
+* Compare the performance with your serial and parallel implementation in Lab-1.
+* What if for a given text file, instead of locally counting all the words in 
+  one go and then doing `zincrby`, workers do `zincrby` with a count of 1 as 
+  soon as they read a word from the file?
+* How does the file size impact completion time? What if each file is 100 bytes,
+  1 Kb, 10 Kb, ..., 1 GB?
+* How does your system handle skew? What if 100 input files are 100 MB each, 
+  but 1 file is 1 GB?
+* How do stragglers affect your system? What if one of the worker is running 
+  at just half the speed of the other workers?
+
+Hints:
+* You may create smaller files by opening a file in text editor and truncating
+  the file after a few lines.
+* You may create larger files by recursively running 
+  `cat in.txt in.txt in.txt in.txt > out.txt`.
+* You may use [cgroups](https://stackoverflow.com/questions/28814002/using-cgroups-to-limit-cpu-usage)
+  to slow down worker processes. 
+* The serial program you wrote in Lab-1 will come handy to test the correctness 
+  of your system.
