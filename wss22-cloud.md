@@ -7,12 +7,16 @@ layout: page
 toc: false
 ---
 
-MapReduce
+[Introduction, Scalability](assets/cloud1-intro%2Bscalability.pdf)
+
+[DSM, MapReduce](assets/cloud2-dsm%2Bmr.pdf)
 * [Word count example](assets/mr_wc.png)
 * [Architecture](assets/mr_arch.png)
 
-Spark
+[Spark](assets/cloud3-spark.pdf)
 * [Simple HDFS example](assets/spark-simple.png)
 * [Page rank example](wss22-cloud-spark-pagerank)
 * [Page rank lineage](assets/spark-lineage-pagerank.png)
+
+[Flink](assets/cloud4-flink.pdf)
 * [Discretized streams](assets/spark-dstreams.png)
