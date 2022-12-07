@@ -127,3 +127,46 @@ Hints:
   to slow down worker processes. 
 * The serial program you wrote in Lab-1 will come handy to test the correctness 
   of your system.
+
+
+## Lab 3: Fault tolerance of workers
+
+Now we wish to ensure that our system is tolerant to worker failures. Since,
+workers are stateless, we should be ok with losing worker state. But, we still
+have to ensure two things:
+
+* Updates to redis should be made atomic. If a worker crashes after incrementing
+  counts of only a few words, then we will end up with incorrect counts. See
+  [Redis fcall](https://redis.io/commands/fcall/) to `xack` a file and to
+  increment word counts as one atomic operation.
+* Consumer groups in Redis streams ensure that each worker gets a unique file 
+  name. But, if a worker crashes after getting a file name from Redis stream, 
+  that file's words may never get counted. Therefore, other workers will 
+  have to steal filenames that have not been `xack`ed till a timeout.
+  See [xautoclaim](https://redis.io/commands/xautoclaim/) to do so.
+
+Measurements:
+* Inject failures at different points in the worker code to verify that the 
+  word counts are indeed correct even after worker failures.
+* How does the `xautoclaim` timeout affect your system? Compare the 
+  completion time with a very small timeout and a very large timeout both 
+  with and without failures.
+* Do stragglers still affect your system? Other workers should steal the file of
+  a straggler and will complete their count. Observe this behavior by severely
+  slowing down a worker.
+* But, now the straggler and the worker who stole its file might both try to
+  update the count. How can you make this update idempotent?
+
+Hints:
+
+* You may add crash points in the worker process to control where and how
+  workers crash. For instance, after the worker reads a filename from
+  `xreadgroup`, it may call `sys.exit()` if a certain worker flag is set. 
+  Configure different flags for different workers at the time of their creation 
+  to verify fault tolerance.
+* Workers can not exit until all the other workers are done with their files.
+  Use [xpending](https://redis.io/commands/xpending/) to verify this before 
+  exiting from workers.
+* `xack` returns the number of Redis stream messages that were actually
+  acknowledged. Verify that `xack` returns 1 before writing to the word count
+  sorted set to get idempotence.
