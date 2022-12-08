@@ -35,6 +35,7 @@ Raft
 * References: [Raft](https://www.usenix.org/node/184041)
 * [Replicated state machine](assets/raft-smr.png)
 * [Server states](assets/raft-states.png)
+* [Terms](assets/raft-terms.png)
 * [Committed entries](assets/raft-committed-entries.png)
 * [Who can become a leader for term 8?](assets/raft-leader-completeness.png)
 * Keywords: Replicated state machines, quorums, linearizability
