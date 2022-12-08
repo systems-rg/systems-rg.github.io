@@ -17,7 +17,7 @@ toc: false
 * References: [DSM](https://crystal.uta.edu/~kumar/cse6306/papers/17.pdf), [MapReduce](https://dl.acm.org/doi/10.1145/1327452.1327492)
 * [Word count example](assets/mr_wc.png)
 * [Architecture](assets/mr_arch.png)
-* Keywords: False sharing, fault tolerance, stragglers, deterministic computation, idempotence
+* Keywords: Locality, embarassingly parallel, fault tolerance, stragglers, deterministic computation, idempotence
 
 [Spark](assets/cloud3-spark.pdf)
 * References: [Spark](https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf)
