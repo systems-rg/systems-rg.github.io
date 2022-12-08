@@ -20,3 +20,9 @@ toc: false
 
 [Flink](assets/cloud4-flink.pdf)
 * [Discretized streams](assets/spark-dstreams.png)
+
+Raft
+* [Replicated state machine](assets/raft-smr.png)
+* [Server states](assets/raft-states.png)
+* [Committed entries](assets/raft-committed-entries.png)
+* [Who can become a leader for term 8?](assets/raft-leader-completeness.png)
