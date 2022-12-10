@@ -15,6 +15,11 @@ will study two computer systems areas: cybersecurity, taught by [Sorav
 Bansal](https://sorav.compiler.ai), and cloud computing, taught by [Abhilash
 Jindal](https://abhilash-jindal.com). 
 
+> You can see lecture notes for cloud computing part [here](wss22-cloud.md).
+Videos will also be uploaded soon! Thanks to those who attended! Happy hacking!
+
+![WSS'22 group photo](assets/wss22-group.jpg)
+
 ## Logistics
 * **Venue:** The talks will be in Bharti 301 (2nd floor, Bharti building) and
 the labs will be in LH504 and LH505 (5th floor, Lecture hall complex).
