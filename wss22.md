@@ -15,7 +15,7 @@ will study two computer systems areas: cybersecurity, taught by [Sorav
 Bansal](https://sorav.compiler.ai), and cloud computing, taught by [Abhilash
 Jindal](https://abhilash-jindal.com). 
 
-> You can see lecture notes for cloud computing part [here](wss22-cloud.md).
+> You can see lecture notes for cybersecurity [here](https://iitd.github.io/security) and cloud computing [here](wss22-cloud.md).
 Videos will also be uploaded soon! Thanks to those who attended! Happy hacking!
 
 ![WSS'22 group photo](assets/wss22-group.jpg)
@@ -60,8 +60,8 @@ link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2NmYWEzNTYtYTMzMS0
 ### Tentative schedule:
 
 |-------|-|-|-|
-5th Dec | **10:30 am-11:50 pm** <br/> *Cybersecurity: Examples of software defects that cause Security Vulnerabilities.* <br/> Buffer overflows <br/> Format-string and Cross-site scripting <br/> Time-of-check-to-time-of-use bugs <br/> User/kernel bugs <br/> Resource Exhaustion bugs. | **12 pm-1:20 pm** <br/> *Cloud: Why cloud? General cloud setup.* <br/> Goals: Fault tolerance, heterogeneity, performance, proximity, scalability, etc. <br/> What is scalability? | **3-6 pm** <br/> Lab |
-6th Dec | **9-10:50 am** <br/> *Cybersecurity: More examples of software defects.* <br/> Cache side channels. <br/> Crash-consistency bugs. <br/> Data Lifetime in Memory and its Implications. <br/> |  **11 am-12:50 pm** <br/> *Cloud: DSM, MapReduce, Work pool model.* <br/> Struggles with Distributed shared memory <br/> MapReduce <br/> Fault tolerance <br/> Straggler mitigation <br/> Work pool model | **2-6 pm** <br/> Lab |
-7th Dec | **9-10:50 am** <br/> *Cybersecurity: Automatic identification of software defects.* <br/> Static Checkers (static and symbolic analyses, dataflow analysis/abstract interpretation). <br/> Dynamic Checkers (Taint Analysis, Safe Memory Allocators, Model Checking, Fuzzing). |  **11 am-12:50 pm** <br/> *Cloud: Spark, Flink.* <br/> RDDs, deterministic computation, immutable inputs <br/> Lineage <br/> Discretized streams and freshness <br/> Continuous operator model <br/> Consistent checkpoints <br/> Chandy-lamport algorithm in Flink. | **2-6 pm** <br/> Lab |
-8th Dec | **9-10:50 am** <br/> *Cybersecurity: Prevention Approaches.* <br/>	Use of Safe Languages and Library Interfaces. <br/> Canaries. <br/> Address-space Layout Randomization. |  **11 am-12:50 pm** <br/> *Cloud: Raft* <br/> Linearizability <br/> Quorums <br/> Safety and liveness <br/> Replicated state machines. | **3-4:50 pm** <br/> *Cloud: Amazon Dynamo, CRDTs* <br/> PACELC theorem <br/> Eventual consistency <br/> Conflict-free replicated data types. |
-9th Dec | **9-10:50 am** <br/> *Cybersecurity: Reflections on Trusting Trust (by Ken Thompson)* <br/> |  **11 am-12:50 pm** <br/> Lab | **2-6 pm** <br/> Lab|
+5th Dec | **10:30 am-11:50 pm** <br/> *Cybersecurity: Examples of software defects that cause Security Vulnerabilities.* <br/> Buffer overflows <br/> Integer Overflows <br/> Time-of-check-to-time-of-use bugs | **12 pm-1:20 pm** <br/> *Cloud: Why cloud? General cloud setup.* <br/> Goals: Fault tolerance, heterogeneity, performance, proximity, scalability, etc. <br/> What is scalability? | **3-6 pm** <br/> Lab |
+6th Dec | **9-10:50 am** <br/> *Cybersecurity: Fuzzing and Introduction to Symbolic Analysis.* <br/> |  **11 am-12:50 pm** <br/> *Cloud: DSM, MapReduce, Work pool model.* <br/> Struggles with Distributed shared memory <br/> MapReduce <br/> Fault tolerance <br/> Straggler mitigation <br/> Work pool model | **2-6 pm** <br/> Lab |
+7th Dec | **9-10:50 am** <br/> *Cybersecurity: Automatic Invariant Inference and Memory Modeling during SYmbolic Analysis.* <br/> |  **11 am-12:50 pm** <br/> *Cloud: Spark, Flink.* <br/> RDDs, deterministic computation, immutable inputs <br/> Lineage <br/> Discretized streams and freshness <br/> Continuous operator model <br/> Consistent checkpoints <br/> Chandy-lamport algorithm in Flink. | **2-6 pm** <br/> Lab |
+8th Dec | **9-10:50 am** <br/> *Cybersecurity: Side-channel Attacks, Reflections on Trusting Trust* |  **11 am-12:50 pm** <br/> *Cloud: Raft* <br/> Linearizability <br/> Quorums <br/> Safety and liveness <br/> Replicated state machines. | **3-4:50 pm** <br/> *Cloud: Amazon Dynamo, CRDTs* <br/> PACELC theorem <br/> Eventual consistency <br/> Conflict-free replicated data types. |
+9th Dec | **9-10:50 am** <br/> *Cybersecurity: A Quick Review of Miscellaneous Security Topics.  Equivalence Checking and Superoptimization* <br/> |  **11 am-12:50 pm** <br/> Lab | **2-6 pm** <br/> Lab|
