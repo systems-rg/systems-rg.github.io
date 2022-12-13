@@ -43,3 +43,6 @@ toc: false
 [Amazon Dynamo](assets/cloud6-dynamo.pdf)
 * References: [Dynamo](https://dl.acm.org/doi/10.1145/1323293.1294281), [CRDT](https://pages.lip6.fr/Marc.Shapiro/papers/RR-7687.pdf)
 * Keywords: Eventual consistency, PACELC theorem, gossip algorithm, vector clocks, conflict free replicated data types
+
+
+Labs can be accessed [here](./wss22-cloud-labs).

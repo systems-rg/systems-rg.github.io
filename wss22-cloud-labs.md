@@ -170,3 +170,79 @@ Hints:
 * `xack` returns the number of Redis stream messages that were actually
   acknowledged. Verify that `xack` returns 1 before writing to the word count
   sorted set to get idempotence.
+
+## Lab 4: Fault tolerance of Redis
+
+Finally, we would like to ensure that our system tolerates Redis failures. We
+need not change the worker code for this lab. To reason about correctness, note
+that a Redis instance handles one command after another in a single thread to 
+keep it linearizable.
+
+You can explore two different approaches to fault tolerance:
+
+### 1. Checkpoints/snapshots
+
+In this approach, we periodically create a checkpoint using
+the [SAVE](https://redis.io/docs/management/persistence/#snapshotting)
+command. Redis starts periodically storing a `dump.rdb` file on disk.
+
+You can run `CONFIG GET dir` from `redis-cli` to find the directory where
+`dump.rdb` gets stored. You may try to crash the Redis instance and then start a
+new Redis instance. Redis should automatically read `dump.rdb` file and restore
+from it. Verify that this new instance have the keys from the old instance by 
+running `keys *` using `redis-cli`.
+
+Now while the job is running, try crashing the Redis instance and restarting
+another one. From a correctness standpoint, checkpoints are consistent because
+Redis has a single event loop and because all our edits were made atomic in the
+previous lab. 
+
+In other words, let us say that a file `foo` was processed after the checkpoint.
+Now after a failover, the new Redis instance (recovered from the checkpoint)
+will remember that the file has NOT yet been `xack`ed. Therefore, a worker will
+again receive the file for processing and it will again `xack` + increment word
+counts in one atomic operation. Since our workers are stateless, recomputing
+a file's word counts are ok.
+
+> Ensure that you set up the new instance in an identical manner, i.e, listen on 
+> the same port, set up the same password, and insert the same lua functions.
+  
+Measurements:
+
+* Does the job still complete if you crash and restart a Redis instance? 
+  * What if Redis crashes while the client was bootstrapping files into the 
+    Redis stream? How can you handle this?
+  * What if Redis crashes after the workers complete counting words from all the 
+    files but before the client reads the top-3 words? How can you handle this?
+* Without any faults in the system, does the completion time increase due to the
+  periodic backups?
+* Does the frequency of backups affect the completion time without any 
+  Redis failures?
+* How do input file sizes affect job completion time if we have Redis failures?
+* How does the system behave if you keep killing and restarting the Redis
+  instance every N seconds?
+
+### 2. Synchronous replication 
+
+Here, we create `2f+1` Redis replicas and connect them with Raft using the 
+[RedisRaft](https://github.com/RedisLabs/redisraft) module. The replicas are 
+always kept consistent by doing the replication *synchronously*. In other words, 
+the leader does not return from a Redis command until it hears back an 
+acknowledgement from a majority of replicas.
+
+Try arbitrarily crashing and restarting `f` replicas while the job is running
+and observe that the job finishes successfully. The good thing about this design
+is that we never have to recompute a file (rollback computation) after
+failovers. But the bad thing is that during normal operations (without Redis
+failures), each Redis operation is now slower because of the added overhead of
+replicating logs.
+
+Measurements:
+
+* Without any faults in the system, how does the completion time change with
+  RedisRaft compared to a single Redis instance?
+  * Try this experiment with small input files and with large input files.
+* Does the job still complete if you crash one Redis instance? What if you 
+  crash two Redis instances?
+* How does the system behave if you keep killing and restarting a random Redis 
+  instance every N seconds?
