@@ -49,3 +49,6 @@ toc: false
 * [Video](https://www.youtube.com/watch?v=LqddjVsX3eM&list=PLFtYuOLJowaJ-a_dDClDDOSW5ZRr6ZgCf&index=7&ab_channel=abhilashjindal)
 * References: [Dynamo](https://dl.acm.org/doi/10.1145/1323293.1294281), [Strong eventual consistency](https://pages.lip6.fr/Marc.Shapiro/papers/RR-7687.pdf)
 * Keywords: Eventual consistency, PACELC theorem, gossip algorithm, vector clocks, strong eventual consistency
+
+
+Labs can be accessed [here](./wss22-cloud-labs).
