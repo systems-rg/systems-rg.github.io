@@ -56,8 +56,6 @@ lecture hours.
 * Keep the input files the same, and increase the number of workers. 
 * Keep the number of workers the same, increase the number of input files. 
 
-[Solution template](wss22-cloud-lab1)
-
 ### Part 2
 Once you are done with Part 1, familiarize yourself with
 [Redis](https://redis.io/).  You need `docker` and `redis` installed for this.
