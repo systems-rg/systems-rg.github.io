@@ -7,7 +7,7 @@ toc: true
 ---
 
 **We are hosting a winter systems school at IITD. More details
-[here](./wss22).**
+[here](./wss23).**
 
 > The reading group has been put on hold until further notice. You may still
 fill [this form](https://forms.gle/Pv17nNVFrSaHPL2t6) to get added to the
