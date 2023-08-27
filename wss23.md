@@ -10,7 +10,7 @@ toc: false
 ## About
 We are excited to host the second winter systems school during 4-8 December 2023 at CSE, IIT Delhi. We
 will study classic and contemporary topics in program analysis
-and optimization: , taught by [Sorav
+and optimization, taught by [Sorav
 Bansal](https://sorav.compiler.ai) and [Kumar Madhukar](https://kumarmadhukar.github.io). 
 
 ## Logistics
