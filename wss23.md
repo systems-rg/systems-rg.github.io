@@ -25,7 +25,7 @@ NOT provide recommendation letters to graduate schools or otherwise for
 participating in the school.
 
 ## Inaugural talk
-#### December 4th, 10-11:30 am
+#### December 4th, 9-10:30 am
 
 TBD
 
