@@ -17,8 +17,7 @@ Bansal](https://sorav.compiler.ai) and [Kumar Madhukar](https://kumarmadhukar.gi
 * **Dates:** 4-8 December 2023
 * **Venue:** The talks will be in the CSE department (Bharti building) and
 the labs will be in LH504 and LH505 (5th floor, Lecture hall complex).
-* **After winter school**: Selected students will also be offered
-**internships at IIT Delhi** during eight weeks of summer 2024.  Stipend will be offered to cover living and stay expenses in the IIT hostel during the internship.
+* **After winter school**: Interested students will be encouraged to apply for **internships at IIT Delhi** during eight weeks of summer 2024.  Stipend will be offered to cover living and stay expenses in the IIT hostel during the internship.
 
 > Please note that we will NOT give any certificate of completion and will
 NOT provide recommendation letters to graduate schools or otherwise for
