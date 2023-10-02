@@ -23,6 +23,9 @@ the labs will be in LH504 and LH505 (5th floor, Lecture hall complex).
 NOT provide recommendation letters to graduate schools or otherwise for
 participating in the school.
 
+## Application process
+Please fill the [form at this link](https://docs.google.com/forms/d/e/1FAIpQLSet1cpQ2A5vZfB184XnFFCmHGGv7hYBfYSNaMh_UonFxHUuGA/viewform) before 11:59pm on 31st October 2023 to apply to attend the Winter school.  The form requires you to read a paper and write what you understood from it.  Please budget at least two days for this.
+
 ## Inaugural talk
 #### December 4th, 9-10:30 am
 
