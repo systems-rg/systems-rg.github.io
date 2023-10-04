@@ -25,7 +25,8 @@ participating in the school.
 
 ## Application process
 The typical profile of a participant will be a final-year undergraduate
-student or a post-graduate (Masters/PhD) student interested in getting
+student or a post-graduate (Masters/PhD) student or an
+industry professional interested in getting
 introduced to advanced topics in program analysis and optimization.
 
 Please fill the [form at this link](https://docs.google.com/forms/d/e/1FAIpQLSet1cpQ2A5vZfB184XnFFCmHGGv7hYBfYSNaMh_UonFxHUuGA/viewform) before 11:59pm on 31st October 2023 to apply to attend the Winter school.  The form requires you to read a paper and write what you understood from it.  Please budget at least two days for this.
