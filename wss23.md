@@ -34,7 +34,7 @@ Please fill the [form at this link](https://docs.google.com/forms/d/e/1FAIpQLSet
 ## Inaugural talk
 #### December 4th, 9-10:30 am
 
-TBD
+Talk by [Ranjit Jhala](https://ranjitjhala.github.io/). Details will be announced soon.
 
 ### Tentative schedule:
 
