@@ -11,7 +11,9 @@ toc: false
 We are excited to host the second winter systems school during 4-8 December 2023 at CSE, IIT Delhi. We
 will study classic and contemporary topics in program analysis
 and optimization, taught by [Sorav
-Bansal](https://sorav.compiler.ai) and [Kumar Madhukar](https://kumarmadhukar.github.io). 
+Bansal](https://sorav.compiler.ai) and [Kumar Madhukar](https://kumarmadhukar.github.io).
+
+The winter school will also have an inaugural talk by [Ranjit Jhala](https://ranjitjhala.github.io/), and a few guest lectures by [Subhajit Roy](https://www.cse.iitk.ac.in/users/subhajit/).
 
 ## Logistics
 * **Dates:** 4-8 December 2023
@@ -29,7 +31,7 @@ student or a post-graduate (Masters/PhD) student or an
 industry professional interested in getting
 introduced to advanced topics in program analysis and optimization.
 
-Please fill the [form at this link](https://docs.google.com/forms/d/e/1FAIpQLSet1cpQ2A5vZfB184XnFFCmHGGv7hYBfYSNaMh_UonFxHUuGA/viewform) before 11:59pm on ~~31st October~~ 12th November 2023 to apply to attend the Winter school.  The form requires you to read a paper and write what you understood from it.  Please budget at least two days for this.
+Please fill the [form at this link](https://docs.google.com/forms/d/e/1FAIpQLSet1cpQ2A5vZfB184XnFFCmHGGv7hYBfYSNaMh_UonFxHUuGA/viewform) before 11:59pm on ~~31st October~~ 12th November 2023 to apply to attend the Winter school.  The form requires you to read a paper/blog, and write what you understood from it.  Please budget at least two days for this.
 
 ## Inaugural talk
 #### December 4th, 9-10:30 am
