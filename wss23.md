@@ -39,6 +39,7 @@ Talk by [Ranjit Jhala](https://ranjitjhala.github.io/). Details will be announce
 ### Tentative schedule:
 
 |-------|-|-|-|
+
 4th Dec | **10:30 am-11:50 pm** <br/> *Predicate Transformers : Weakest precondition, Hoare logic* | **12 pm-1:20 pm** <br/> *Formal Verification of Deep Neural Networks* | **3-6 pm** <br/> Lab |
 5th Dec | **10:30 am-11:50 pm** <br/> *Automatic Invariant Inference : Guess-and-Check, Affine Invariants based on linear algebra techniques* | **12 pm-1:20 pm** <br/> *Abstraction Refinement Techniques for Verifying Deep Neural Networks* | **3-6 pm** <br/> Lab |
 6th Dec | **10:30 am-11:50 pm** <br/> *Automatic Equivalence (Bisimulation) Checking* | **12 pm-1:20 pm** <br/> *Pruning and Slicing of Deep Neural Networks, Verifying Learning-Augmented Systems* | **3-6 pm** <br/> Lab |
