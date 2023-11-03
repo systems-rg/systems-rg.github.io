@@ -59,8 +59,8 @@ from up to 24% of code size (average 14%), to nothing at all.
 ### Tentative schedule:
 
 |-------|-|-|-|-|-|
-4th Dec | **0900-1030** <br/> *Inaugural Talk<br/>(Ranjit Jhala)* | **1030-1100 am** <br/> *Tea/Coffee* | **1100-1230** <br/> *Introductory Sessions<br/>(30 mins for every speaker)* | **1230-1400** <br/> *Lunch* | **1430-1700** <br/> *Lab* |
-5th Dec | **0900-1030** <br/> *Session I<br/>(Sorav Bansal)* | **1030-1100 am** <br/> *Tea/Coffee* | **1100-1230** <br/> *Session II<br/>(Sorav Bansal)* | **1230-1400** <br/> *Lunch* | **1430-1700** <br/> *Lab* |
-6th Dec | **0900-1030** <br/> *Session I<br/>(Subhajit Roy)* | **1030-1100 am** <br/> *Tea/Coffee* | **1100-1230** <br/> *Session II<br/>(Subhajit Roy)* | **1230-1400** <br/> *Lunch* | **1430-1700** <br/> *Lab* |
-7th Dec | **0900-1030** <br/> *Session I<br/>(Kumar Madhukar)* | **1030-1100 am** <br/> *Tea/Coffee* | **1100-1230** <br/> *Session II<br/>(Kumar Madhukar)* | **1230-1400** <br/> *Lunch* | **1430-1700** <br/> *Lab* |
-8th Dec | **0900-1000** <br/> *Concluding Session I<br/>(Kumar Madhukar)* | **1000-1030 am** <br/> *Tea/Coffee* | **1030-1230** <br/> *Concluding Session II<br/>(Subhajit Roy)* <br/><br/> *Concluding Session III<br/>(Sorav Bansal)* | **1230-1400** <br/> *Lunch* | |
+4th Dec | **0900-1030** <br/> *Inaugural Talk<br/>(Ranjit Jhala)* | **1030-1100** <br/> *Tea/Coffee* | **1100-1230** <br/> *Introductory Sessions<br/>(30 mins for every speaker)* | **1230-1400** <br/> *Lunch* | **1430-1700** <br/> *Lab* |
+5th Dec | **0900-1030** <br/> *Session I<br/>(Sorav Bansal)* | **1030-1100** <br/> *Tea/Coffee* | **1100-1230** <br/> *Session II<br/>(Sorav Bansal)* | **1230-1400** <br/> *Lunch* | **1430-1700** <br/> *Lab* |
+6th Dec | **0900-1030** <br/> *Session I<br/>(Subhajit Roy)* | **1030-1100** <br/> *Tea/Coffee* | **1100-1230** <br/> *Session II<br/>(Subhajit Roy)* | **1230-1400** <br/> *Lunch* | **1430-1700** <br/> *Lab* |
+7th Dec | **0900-1030** <br/> *Session I<br/>(Kumar Madhukar)* | **1030-1100** <br/> *Tea/Coffee* | **1100-1230** <br/> *Session II<br/>(Kumar Madhukar)* | **1230-1400** <br/> *Lunch* | **1430-1700** <br/> *Lab* |
+8th Dec | **0900-1000** <br/> *Concluding Session I<br/>(Kumar Madhukar)* | **1000-1030** <br/> *Tea/Coffee* | **1030-1230** <br/> *Concluding Session II<br/>(Subhajit Roy)* <br/><br/> *Concluding Session III<br/>(Sorav Bansal)* | **1230-1400** <br/> *Lunch* | |
