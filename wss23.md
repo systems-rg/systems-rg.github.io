@@ -36,6 +36,30 @@ Please fill the [form at this link](https://docs.google.com/forms/d/e/1FAIpQLSet
 
 Talk by [Ranjit Jhala](https://ranjitjhala.github.io/). Details will be announced soon.
 
+### Flux: A Language Integrated Verifier for Rust
+
+The last few decades have seen great strides in various technologies for
+analyzing programs. However, we believe these technologies will only
+become ubiquitous if they can be seamlessly integrated within programming
+languages with mature compilers, libraries and tools, so that programmers can
+use them continuously throughout the software development lifecycle (and not just
+as a means of post-facto validation.)
+
+In this talk, we will describe Flux: a new language integrated verifier for
+the Rust programming language that lets the programmer write *specifications*
+--- by combining logical refinements with Rust's ownership mechanisms ---
+which permits automatic *verification* using a combination of SMT and
+abstract interpretation.
+
+We demonstrate the advantages of refinement types by using a suite of
+benchmarks to compare Flux with classical program logic based approaches
+as implemented in the state-of-the-art Prusti verifier.
+We show that by exploiting language structure to factor complex program
+invariants into simple types and refinements, Flux can make verification
+ergonomic by slashing specification lines by a factor of two, verification
+time by an order of magnitude, and the programmer's annotation overhead
+from up to 24% of code size (average 14%), to nothing at all.
+
 ### Tentative schedule:
 
 |-------|-|-|-|
