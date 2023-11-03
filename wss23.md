@@ -31,12 +31,8 @@ introduced to advanced topics in program analysis and optimization.
 
 Please fill the [form at this link](https://docs.google.com/forms/d/e/1FAIpQLSet1cpQ2A5vZfB184XnFFCmHGGv7hYBfYSNaMh_UonFxHUuGA/viewform) before 11:59pm on ~~31st October~~ 12th November 2023 to apply to attend the Winter school.  The form requires you to read a paper/blog, and write what you understood from it.  Please budget at least two days for this.
 
-## Inaugural talk
+## Inaugural talk by [Ranjit Jhala](https://ranjitjhala.github.io/) on "Flux: A Language Integrated Verifier for Rust"
 #### December 4th, 9-10:30 am
-
-Talk by [Ranjit Jhala](https://ranjitjhala.github.io/). Details will be announced soon.
-
-### Flux: A Language Integrated Verifier for Rust
 
 The last few decades have seen great strides in various technologies for
 analyzing programs. However, we believe these technologies will only
