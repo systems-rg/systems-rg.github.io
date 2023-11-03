@@ -58,9 +58,9 @@ from up to 24% of code size (average 14%), to nothing at all.
 
 ### Tentative schedule:
 
-|-------|-|-|-|
-4th Dec | **10:30 am-11:50 pm** <br/> *Predicate Transformers : Weakest precondition, Hoare logic* | **12 pm-1:20 pm** <br/> *Formal Verification of Deep Neural Networks* | **3-6 pm** <br/> Lab |
-5th Dec | **10:30 am-11:50 pm** <br/> *Automatic Invariant Inference : Guess-and-Check, Affine Invariants based on linear algebra techniques* | **12 pm-1:20 pm** <br/> *Abstraction Refinement Techniques for Verifying Deep Neural Networks* | **3-6 pm** <br/> Lab |
-6th Dec | **10:30 am-11:50 pm** <br/> *Automatic Equivalence (Bisimulation) Checking* | **12 pm-1:20 pm** <br/> *Pruning and Slicing of Deep Neural Networks, Verifying Learning-Augmented Systems* | **3-6 pm** <br/> Lab |
-7th Dec | **10:30 am-11:50 pm** <br/> *Superoptimization* | **12 pm-1:20 pm** <br/> *Verifying Recurrent, Convolutional, and Binarized Neural Networks* | **3-6 pm** <br/> Lab |
-8th Dec | **10:30 am-11:50 pm** <br/> *Reflections on Trusting Trust* | **12 pm-1:20 pm** <br/> *Deep Neural Networks and Formal Explainability* | **3-6 pm** <br/> Lab |
+|-------|-|-|-|-|-|
+4th Dec | **0900-1030** <br/> *Inaugural Talk (Ranjit Jhala)* | **1030-1100 am** <br/> *Tea/Coffee* | **1100-1230** <br/> *Introductory Session (30 mins for every speaker)* | **1230-1400** <br/> *Lunch* | **1430-1700** <br/> *Lab* |
+5th Dec | **0900-1030** <br/> *Session I (Sorav Bansal)* | **1030-1100 am** <br/> *Tea/Coffee* | **1100-1230** <br/> *Session II (Sorav Bansal)* | **1230-1400** <br/> *Lunch* | **1430-1700** <br/> *Lab* |
+6th Dec | **0900-1030** <br/> *Session I (Subhajit Roy)* | **1030-1100 am** <br/> *Tea/Coffee* | **1100-1230** <br/> *Session II (Subhajit Roy)* | **1230-1400** <br/> *Lunch* | **1430-1700** <br/> *Lab* |
+7th Dec | **0900-1030** <br/> *Session I (Kumar Madhukar)* | **1030-1100 am** <br/> *Tea/Coffee* | **1100-1230** <br/> *Session II (Kumar Madhukar)* | **1230-1400** <br/> *Lunch* | **1430-1700** <br/> *Lab* |
+8th Dec | **0945-1030** <br/> *Concluding Session I (Kumar Madhukar)* | **1030-1100 am** <br/> *Tea/Coffee* | **1100-1230** <br/> *Concluding Session II (Subhajit Roy)* <br/> *Concluding Session II (Sorav Bansal)* | **1230-1400** <br/> *Lunch* | |
