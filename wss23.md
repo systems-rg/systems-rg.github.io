@@ -15,8 +15,8 @@ a series of guest lectures, on symbolic execution and fuzzing, and their applica
 
 ## Logistics
 * **Dates:** 4-8 December 2023
-* **Venue:** The talks will be in Room 501 on the fourth floor of the <a href=https://g.co/kgs/vroyzW>Bharti Building</a> and
-the labs will be held in Room LH504 on the fifth floor of the <a href=https://g.co/kgs/YfiLty>Lecture hall complex</a>.
+* **Venue:** The talks will be in Room 501 on the fourth floor of the [Bharti Building](https://g.co/kgs/vroyzW) and
+the labs will be held in Room LH504 on the fifth floor of the [Lecture hall complex](https://g.co/kgs/YfiLty)</a>.
 * **Accommodation** We will try and provide hostel accommodation to the selected participants during 3-8 December 2023.  You will need to check-out before lunch on 9th December 2023.  Please be aware that the availability of hostel accommodation depends on several external factors that are beyond our control.   While we expect everyone to be able to get hostel accommodation, do not assume this until you receive a confirmation from us.  We will do our best to confirm this (for the selected participants) as soon as possible.
 * **After winter school**: Interested students will be encouraged to apply for **internships at IIT Delhi** during eight weeks of summer 2024.  Stipend will be offered to cover living and stay expenses in the IIT hostel during the internship.
 
