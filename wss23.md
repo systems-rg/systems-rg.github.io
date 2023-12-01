@@ -67,7 +67,7 @@ from up to 24% of code size (average 14%), to nothing at all.
 8th Dec | **0900-1000** <br/> *Concluding Session I<br/>(Kumar Madhukar)* | **1000-1030** <br/> *Tea/Coffee* | **1030-1230** <br/> *Concluding Session II<br/>(Subhajit Roy)* <br/><br/> *Concluding Session III<br/>(Sorav Bansal)* | **1230-1400** <br/> *Lunch* | |
 
 ### List of topics (speaker-wise):
-* **Sorav Bansal**: Predicate Transformers (Weakest precondition, Hoare logic), Automatic Invariant Inference (Guess-and-Check, Affine invariants based on linear algebra techniques), Automatic Equivalence Checking (Automatic Bisimulation Inference), Superoptimization, Reflections on Trusting Trust
+* **Sorav Bansal**: Introduction to logic, Hoare logic, Weakest precondition, Automatic invariant inference, Equivalence checking, Superoptimization.  [Link to slides](https://drive.google.com/file/d/1Sviu_L1O25Z1Q5CGwxv9ZKcpsAjyLxBC/view?usp=sharing).
   
 * **Subhajit Roy**: Program Testing Fundamentals, Symbolic Execution, Symbolic Execution for testing Neural Networks, Neural network guided testing of Software Systems
 
