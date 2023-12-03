@@ -1,3 +1,7 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
 title: Labs on Logic, Hoare Logic, Predicate Transformers, Invariant Inference, Equivalence Checking for WSS, 2023
 layout: page
 toc: false
