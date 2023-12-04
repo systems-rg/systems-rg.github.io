@@ -19,6 +19,7 @@ toc: false
 - Check if multiplication is the inverse of division for non-zero bitvectors
 - Check if there is a multiplicative inverse of every bitvector value, i.e., for every bitvector value *v*, does there exist another bitvector value *w* such that *vw=1* (where the multiplication of *v* and *w* is in bitvector arithmetic).
 - Check if a given number is prime? (try if it works for small integers, then try for larger integers)
+- Prove that the sum of the first *n* natural numbers is *n(n+1)/2*.
 Report your findings, along with the Z3 queries that you used.
 
 ### Arrays
