@@ -67,7 +67,7 @@ from up to 24% of code size (average 14%), to nothing at all.
 8th Dec | **0900-1000** <br/> *Concluding Session I<br/>(Kumar Madhukar)* | **1000-1030** <br/> *Tea/Coffee* | **1030-1230** <br/> *Concluding Session II<br/>(Subhajit Roy)* <br/><br/> *Concluding Session III<br/>(Sorav Bansal)* | **1230-1400** <br/> *Lunch* | |
 
 ### List of topics (speaker-wise):
-* **Sorav Bansal**: Introduction to logic, Hoare logic, Weakest precondition, Automatic invariant inference, Equivalence checking, Superoptimization: [slides1](./sorav-lecture1.pdf), [slides2](./sorav-lecture2.pdf), [labs](./wss23-logic-labs.md)
+* **Sorav Bansal**: Introduction to logic, Hoare logic, Weakest precondition, Automatic invariant inference, Equivalence checking, Superoptimization: [slides1](./sorav-lecture1.pdf), [slides2](./sorav-lecture2.pdf), [labs](./wss23-logic-labs.md), demo-files: [strlen_src.c](./strlen_src.c), [strlen_dst.c](./strlen_dst.c), [s119.c](./s119.c), [s119.s](./s119.s)
   
 * **Subhajit Roy**: Program Testing Fundamentals, Symbolic Execution, Symbolic Execution for testing Neural Networks, Neural network guided testing of Software Systems: [slides](https://cse.iitk.ac.in/users/subhajit/dropbox/IITD_WSS.pdf), [labs](./wss23-concolic-labs.md)
 
