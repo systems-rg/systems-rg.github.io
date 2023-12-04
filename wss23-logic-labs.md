@@ -7,7 +7,7 @@ layout: page
 toc: false
 ---
 
-## Lab 1: Experiment with [Z3](https://compsys-tools.ens-lyon.fr/z3/)
+## Lab 1: Experiment with [Z3](https://microsoft.github.io/z3guide/playground/Freeform%20Editing/)
 ### Propositional logic
 - Check if the following proposition is valid: *!(vw)=!v+!w*.
 

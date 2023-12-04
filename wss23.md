@@ -69,6 +69,6 @@ from up to 24% of code size (average 14%), to nothing at all.
 ### List of topics (speaker-wise):
 * **Sorav Bansal**: Introduction to logic, Hoare logic, Weakest precondition, Automatic invariant inference, Equivalence checking, Superoptimization: [slides](https://drive.google.com/file/d/1Sviu_L1O25Z1Q5CGwxv9ZKcpsAjyLxBC/view?usp=sharing), [labs](./wss23-logic-labs.md)
   
-* **Subhajit Roy**: Program Testing Fundamentals, Symbolic Execution, Symbolic Execution for testing Neural Networks, Neural network guided testing of Software Systems
+* **Subhajit Roy**: Program Testing Fundamentals, Symbolic Execution, Symbolic Execution for testing Neural Networks, Neural network guided testing of Software Systems [slides](https://cse.iitk.ac.in/users/subhajit/dropbox/IITD_WSS.pdf), [labs](./wss23-concolic-labs.md)
 
 * **Kumar Madhukar**: Formal Verification of Deep Neural Networks, Abstraction-Refinement Techniques, Pruning and Slicing of DNNs, Verifying Learning-Augmented Systems, Recurrent, Convolutional, and Binarized Neural Networks, Explainability
