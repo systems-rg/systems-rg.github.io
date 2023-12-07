@@ -71,4 +71,4 @@ from up to 24% of code size (average 14%), to nothing at all.
   
 * **Subhajit Roy**: Program Testing Fundamentals, Symbolic Execution, Symbolic Execution for testing Neural Networks, Neural network guided testing of Software Systems: [slides](https://cse.iitk.ac.in/users/subhajit/dropbox/IITD_WSS.pdf), [labs](./wss23-concolic-labs.md)
 
-* **Kumar Madhukar**: Formal Verification of Deep Neural Networks, Abstraction-Refinement Techniques, Pruning and Slicing of DNNs, Verifying Learning-Augmented Systems, Recurrent, Convolutional, and Binarized Neural Networks, Explainability: [introductory-slides](./intro-dlv.pdf), [lecture-slides](./dlv-lecture.pdf), [lab](./wss23-nnv-lab.pdf)
+* **Kumar Madhukar**: Formal Verification of Deep Neural Networks, Abstraction-Refinement Techniques, Pruning and Slicing of DNNs, Verifying Learning-Augmented Systems, Recurrent, Convolutional, and Binarized Neural Networks, Explainability: [introductory-slides](./intro-dlv.pdf), [lecture-slides](./dlv-lecture.pdf), [lab](./wss23-nnv-lab.pdf), [lab2](./wss-nnv-lab2.pdf)
