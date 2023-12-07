@@ -13,25 +13,6 @@ will study classic and contemporary topics in program analysis and optimization,
 Bansal](https://sorav.compiler.ai) and [Kumar Madhukar](https://kumarmadhukar.github.io). The school will have
 a series of guest lectures, on symbolic execution and fuzzing, and their application to neural network analysis, by [Subhajit Roy](https://www.cse.iitk.ac.in/users/subhajit/).
 
-## Logistics
-* **Dates:** 4-8 December 2023
-* **Venue:** The talks will be in Room 501 on the fourth floor of the [Bharti Building](https://g.co/kgs/vroyzW) and
-the labs will be held in Room LH504 on the fifth floor of the [Lecture hall complex](https://g.co/kgs/YfiLty).
-* **Accommodation** We will try and provide hostel accommodation to the selected participants during 3-8 December 2023.  You will need to check-out before lunch on 9th December 2023.  Please be aware that the availability of hostel accommodation depends on several external factors that are beyond our control.   While we expect everyone to be able to get hostel accommodation, do not assume this until you receive a confirmation from us.  We will do our best to confirm this (for the selected participants) as soon as possible.
-* **After winter school**: Interested students will be encouraged to apply for **internships at IIT Delhi** during eight weeks of summer 2024.  Stipend will be offered to cover living and stay expenses in the IIT hostel during the internship.
-
-> Please note that we will NOT give any certificate of completion and will
-NOT provide recommendation letters to graduate schools or otherwise for
-participating in the school.
-
-## Application process
-The typical profile of a participant will be a final-year undergraduate
-student or a post-graduate (Masters/PhD) student or an
-industry professional interested in getting
-introduced to advanced topics in program analysis and optimization.
-
-Please fill the [form at this link](https://docs.google.com/forms/d/e/1FAIpQLSet1cpQ2A5vZfB184XnFFCmHGGv7hYBfYSNaMh_UonFxHUuGA/viewform) before 11:59pm on ~~31st October~~ 12th November 2023 to apply to attend the Winter school.  The form requires you to read a paper/blog, and write what you understood from it.  Please budget at least two days for this.
-
 ## Inaugural talk by [Ranjit Jhala](https://ranjitjhala.github.io/) on "Flux: A Language Integrated Verifier for Rust"
 #### December 4th, 9-10:30 am (delivered virtually)
 
@@ -72,3 +53,33 @@ from up to 24% of code size (average 14%), to nothing at all.
 * **Subhajit Roy**: Program Testing Fundamentals, Symbolic Execution, Symbolic Execution for testing Neural Networks, Neural network guided testing of Software Systems [slides](https://cse.iitk.ac.in/users/subhajit/dropbox/IITD_WSS.pdf), [labs](./wss23-concolic-labs.md)
 
 * **Kumar Madhukar**: Formal Verification of Deep Neural Networks, Abstraction-Refinement Techniques, Pruning and Slicing of DNNs, Verifying Learning-Augmented Systems, Recurrent, Convolutional, and Binarized Neural Networks, Explainability
+
+## Submit your lab answers
+
+Please use [this Google form](https://forms.gle/4YnewVmYHeL1cxGe7) to submit your lab answers.
+
+## Submit your feedback on WSS23
+
+Please use [this Google form](https://forms.gle/gcBxsKzMmTivKrk59) to submit your feedback on WSS23.
+
+
+## Logistics
+* **Dates:** 4-8 December 2023
+* **Venue:** The talks will be in Room 501 on the fourth floor of the [Bharti Building](https://g.co/kgs/vroyzW) and
+the labs will be held in Room LH504 on the fifth floor of the [Lecture hall complex](https://g.co/kgs/YfiLty).
+* **Accommodation** We will try and provide hostel accommodation to the selected participants during 3-8 December 2023.  You will need to check-out before lunch on 9th December 2023.  Please be aware that the availability of hostel accommodation depends on several external factors that are beyond our control.   While we expect everyone to be able to get hostel accommodation, do not assume this until you receive a confirmation from us.  We will do our best to confirm this (for the selected participants) as soon as possible.
+* **After winter school**: Interested students will be encouraged to apply for **internships at IIT Delhi** during eight weeks of summer 2024.  Stipend will be offered to cover living and stay expenses in the IIT hostel during the internship.
+
+> Please note that we will NOT give any certificate of completion and will
+NOT provide recommendation letters to graduate schools or otherwise for
+participating in the school.
+
+## Application process
+The typical profile of a participant will be a final-year undergraduate
+student or a post-graduate (Masters/PhD) student or an
+industry professional interested in getting
+introduced to advanced topics in program analysis and optimization.
+
+Please fill the [form at this link](https://docs.google.com/forms/d/e/1FAIpQLSet1cpQ2A5vZfB184XnFFCmHGGv7hYBfYSNaMh_UonFxHUuGA/viewform) before 11:59pm on ~~31st October~~ 12th November 2023 to apply to attend the Winter school.  The form requires you to read a paper/blog, and write what you understood from it.  Please budget at least two days for this.
+
+
