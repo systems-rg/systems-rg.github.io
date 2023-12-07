@@ -48,11 +48,12 @@ from up to 24% of code size (average 14%), to nothing at all.
 8th Dec | **0900-1000** <br/> *Concluding Session I<br/>(Kumar Madhukar)* | **1000-1030** <br/> *Tea/Coffee* | **1030-1230** <br/> *Concluding Session II<br/>(Subhajit Roy)* <br/><br/> *Concluding Session III<br/>(Sorav Bansal)* | **1230-1400** <br/> *Lunch* | |
 
 ### List of topics (speaker-wise):
-* **Sorav Bansal**: Introduction to logic, Hoare logic, Weakest precondition, Automatic invariant inference, Equivalence checking, Superoptimization: [slides](https://drive.google.com/file/d/1Sviu_L1O25Z1Q5CGwxv9ZKcpsAjyLxBC/view?usp=sharing), [labs](./wss23-logic-labs.md)
+* **Sorav Bansal**: Introduction to logic, Hoare logic, Weakest precondition, Automatic invariant inference, Equivalence checking, Superoptimization: [slides1](./sorav-lecture1.pdf), [slides2](./sorav-lecture2.pdf), [labs](./wss23-logic-labs.md), demo-files: [strlen_src.c](./strlen_src.c), [strlen_dst.c](./strlen_dst.c), [s119.c](./s119.c), [s119.s](./s119.s)
   
-* **Subhajit Roy**: Program Testing Fundamentals, Symbolic Execution, Symbolic Execution for testing Neural Networks, Neural network guided testing of Software Systems [slides](https://cse.iitk.ac.in/users/subhajit/dropbox/IITD_WSS.pdf), [labs](./wss23-concolic-labs.md)
+* **Subhajit Roy**: Program Testing Fundamentals, Symbolic Execution, Symbolic Execution for testing Neural Networks, Neural network guided testing of Software Systems: [slides](https://cse.iitk.ac.in/users/subhajit/dropbox/IITD_WSS.pdf), [labs](./wss23-concolic-labs.md)
 
-* **Kumar Madhukar**: Formal Verification of Deep Neural Networks, Abstraction-Refinement Techniques, Pruning and Slicing of DNNs, Verifying Learning-Augmented Systems, Recurrent, Convolutional, and Binarized Neural Networks, Explainability
+* **Kumar Madhukar**: Formal Verification of Deep Neural Networks, Abstraction-Refinement Techniques, Pruning and Slicing of DNNs, Verifying Learning-Augmented Systems, Recurrent, Convolutional, and Binarized Neural Networks, Explainability: [introductory-slides](./intro-dlv.pdf), [lecture-slides](./dlv-lecture.pdf), [lab](./wss23-nnv-lab.pdf), [lab2](./wss-nnv-lab2.pdf)
+
 
 ## Submit your lab answers
 
@@ -81,5 +82,3 @@ industry professional interested in getting
 introduced to advanced topics in program analysis and optimization.
 
 Please fill the [form at this link](https://docs.google.com/forms/d/e/1FAIpQLSet1cpQ2A5vZfB184XnFFCmHGGv7hYBfYSNaMh_UonFxHUuGA/viewform) before 11:59pm on ~~31st October~~ 12th November 2023 to apply to attend the Winter school.  The form requires you to read a paper/blog, and write what you understood from it.  Please budget at least two days for this.
-
-
